@@ -3,7 +3,7 @@ Judul: Koordinat Titik, Jarak, Vektor, dan Garis.
 Kelompok: 1
 Nama Anggota : ["markdown", "preview", "mermaid", "latex", "open-source"]
 ---
-
+agagagg
 # Koordinat Titik, Jarak, Vektor, dan Garis. 
 ## 1. Koordinat Titik di Ruang
 Untuk menentukan lokasi suatu titik pada bidang datar, diperlukan dua angka. Kita tahu bahwa setiap titik pada bidang datar dapat direpresentasikan sebagai pasangan terurut bilangan real (a, b), a adalah koordinat x dan b adalah koordinat y. Karena alasan ini, bidang datar disebut dua dimensi. Sedangkan, untuk menentukan lokasi suatu titik di ruang, diperlukan tiga angka. Kita merepresentasikan setiap titik di ruang dengan tiga bilangan real yang terurut (a, b, c). 
