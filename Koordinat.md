@@ -5,7 +5,10 @@ Nama Anggota : ["markdown", "preview", "mermaid", "latex", "open-source"]
 ---
 https://markdownviewer.pages.dev/
 
-
+<div align="center">
+  <img src="" width="500">
+    Gambar 1. paraboloida eliptik
+</div>
 
 # Koordinat Titik, Jarak, Vektor, dan Garis. 
 ## 1. Koordinat Titik di Ruang
