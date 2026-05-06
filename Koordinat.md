@@ -258,33 +258,33 @@ Notasi vektor:
   
   Untuk menentukan sebuah garis dalam ruang, kita membutuhkan dua informasi utama:
   
-   * Satu titik tetap yang dilalui garis tersebut, misal P1(x1,y1,z1)
+   * Satu titik tetap yang dilalui garis tersebut, misal $P_1(x_1,y_1,z_1)$
 
   * Vektor arah yang sejajar dengan garis tersebut, misal
-    v=ai+bj+ck atau v=(a,b,c)
+    $\overrightarrow{v}=a$\overrightarrow{i}+b$\overrightarrow{j}+c$\overrightarrow{k} atau $\overrightarrow{v}=(a,b,c)$
     
     1. Persamaan Vektor
        
-       Jika r adalah posisi titik sembarang (x,y,z)pada garis, maka:
-        r=r0+tv
+       Jika $r$ adalah posisi titik sembarang $(x,y,z)$ pada garis, maka:
+        $r=r_0+t$\overrightarrow{v}$
         Di mana:
-        * r0 adalah vektor posisi titik P1
+        * $r_0$ adalah vektor posisi titik $P_1$
 
-        * t adalah skalar(parameter)
+        * $t$ adalah skalar(parameter)
     2. Persamaan Parametrik
 
         Dengan menguraikan komponen di atas, kita mendapatkan
 
-        x=x1+at
+        #x=x_1+at$
 
-        y=y1+bt
+        $y=y_1+bt$
   
-       z=z1+c
+       $z=z_1+c$
 
     3. Persamaan Simetrik
 
-       Jika kita mengeliminasi parameter t (dengan syarat a,b,c tidak samaa dengan 0), maka diperoleh
-       x-x1a=y-y1b=z-z1c
+       Jika kita mengeliminasi parameter $t$ (dengan syarat $a,b,c \ne 0$), maka diperoleh
+       $x-x_1 a=y-y_1 b=z-z_1 c$
 
 b. Kedudukan dua garis dalam ruang
 
@@ -301,10 +301,19 @@ Dua garis dalam ruang memiliki empat kemungkinan hubungan:
 
 c. Sudut Antara Dua Garis
 
-   Sudut antara dua garis ditentukan oleh sudut antara kedua vektor arahnya (v1 dan v2):
-   cos =v1 . v2v1  v2
+   Sudut antara dua garis ditentukan oleh sudut antara kedua vektor arahnya $(\overrightarrow{v_1}$ dan $\overrightarrow{v_2})$:
+   $cos \theta = $\overrightarrow{v_1}.$\overrightarrow{v2}$\overrightarrow{v_1}$\overrightarrow{v_2}$
 
+<div align="center">
+  <img src="https://id.pinterest.com/40cec2ee-55de-4e54-b266-857b6ce5371d" width="500">     
+</div>
 
-d. Contoh Soal dan Penyelesaiaan
+ Persamaan Garis dalam Ruang 2D vs 3D
+
+Dalam geometri analitik dua dimensi ($\mathbb{R}^2$), grafik dari sebuah persamaan yang melibatkan $x$ dan $y$ adalah sebuah kurva atau garis.  
+
+Sebagai contoh, persamaan $y=5$ dalam $\mathbb{R}^2$ merepresentasikan sebuah garis, namun dalam $\mathbb{R}^3$ persamaan yang sama merepresentasikan sebuah bidang.  
+
+Persamaan $y=x$ dalam $\mathbb{R}^3$ adalah bidang vertikal yang memotong bidang $xy$ pada sebuah garis dengan persamaan $y=x, z=0$.
 
 
