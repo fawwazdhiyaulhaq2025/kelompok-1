@@ -7,15 +7,6 @@ Nama Anggota : ["Salma Fitri Bakhitoh
 ---
 https://markdownviewer.pages.dev/
 
-<div align="center">
-  <img src="" width="500">
-    Gambar 1. paraboloida eliptik
-  
-</div>
-<div style="text-align: center">
-
-</div>
-
 # Koordinat Titik, Jarak, Vektor, dan Garis. 
 ## 1. Koordinat Titik di Ruang
 Untuk menentukan lokasi suatu titik pada bidang datar, diperlukan dua angka. Kita tahu bahwa setiap titik pada bidang datar dapat direpresentasikan sebagai pasangan terurut bilangan real $(a, b)$, $a$ adalah koordinat $x$ dan $b$ adalah koordinat $y$. Karena alasan ini, bidang datar disebut dua dimensi. Sedangkan, untuk menentukan lokasi suatu titik di ruang, diperlukan tiga angka. Kita merepresentasikan setiap titik di ruang dengan tiga bilangan real yang terurut $(a, b, c)$. 
@@ -42,6 +33,11 @@ Menentukan titik $P(a, b, c)$:
 * Berjalan $b$ satuan sejajar sumbu $y$
 * Berjalan $c$ satuan sejajar sumbu $z$
 
+<div align="center">
+  <img src="https://i.pinimg.com/736x/f3/06/89/f3068984ab873ffb897eebba5cbf399e.jpg" width="500">
+   
+</div>
+
 Proyeksi titik
 
 Setiap titik $P(a, b, c)$ membentuk "kotak persegi panjang" di ruang.
@@ -56,6 +52,11 @@ Contoh soal:
 Misalkan posisi awal berada di titik asal $(0, 0, 0)$. Anda bergerak sejauh 4 satuan sepanjang sumbu $x$ positif, lalu bergerak sejauh 3 satuan ke arah bawah (sejajar sumbu $z$ negatif). Tentukan koordinat posisi akhir Anda.
 
 Penyelesaian:
+
+<div align="center">
+  <img src="https://i.pinimg.com/736x/fa/00/5a/fa005a4d692a9d2f926fb8b3206934f3.jpg" width="500">
+   
+</div>
 
 * Titik awal $(0, 0, 0)$
 
