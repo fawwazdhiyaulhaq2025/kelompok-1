@@ -5,66 +5,224 @@ Nama Anggota : ["Salma Fitri Bakhitoh
 25030630032", "Halimah Sa'adatur Rahmah 25030630034", "Zuhrotul Jannatil Karimah 
 25030630057", "Fawwaz Dhiya'ulhaq 25030630077"]
 ---
-https://markdownviewer.pages.dev/
 
 # Koordinat Titik, Jarak, Vektor, dan Garis. 
-## 1. Koordinat Titik di Ruang
-Untuk menentukan lokasi suatu titik pada bidang datar, diperlukan dua angka. Kita tahu bahwa setiap titik pada bidang datar dapat direpresentasikan sebagai pasangan terurut bilangan real $(a, b)$, $a$ adalah koordinat $x$ dan $b$ adalah koordinat $y$. Karena alasan ini, bidang datar disebut dua dimensi. Sedangkan, untuk menentukan lokasi suatu titik di ruang, diperlukan tiga angka. Kita merepresentasikan setiap titik di ruang dengan tiga bilangan real yang terurut $(a, b, c)$. 
-* Bidang (2D): Memerlukan 2 angka $(x, y)$ untuk menentukan posisi.
-* Bidang (3D): Memerlukan 3 angka $(x, y, z)$ untuk menentukan posisi.
+# Bab 1 Sistem Koordinat dalam Ruang 3D
+## 1.1 Sistem Koordinat Kartesius 3D
+Sistem koordinat Kartesius tiga dimensi (3D) terdiri dari tiga sumbu yang saling tegak lurus satu sama lain, yang berpotongan di sebuah titik yang disebut titik asal atau origin, dilambangkan dengan huruf $O$. Ketiga sumbu tersebut adalah sumbu-$X$, sumbu-$Y$, dan sumbu-$Z$, di mana:
+- Sumbu-$X$ biasanya digambar mengarah ke depan-kanan pembaca (keluar dari bidang gambar).
+- Sumbu-$Y$ digambar mengarah ke kanan (ke samping).
+- Sumbu-$Z$ digambar mengarah ke atas.
+
+![alt text](blob:https://markdownviewer.pages.dev/23968116-6142-45ee-b12d-2330f1eb62eb)
+
+Arah positif dari ketiga sumbu mengikuti kaidah tangan kanan (right-hand rule). Jika ibu jari, telunjuk, dan jari tengah tangan kanan diluruskan sehingga ketiganya saling tegak lurus, maka ibu jari menunjuk arah positif sumbu-$Z$, telunjuk menunjuk arah positif sumbu-$Y$, dan jari tengah menunjuk arah positif sumbu-$X$. Sistem yang demikian disebut sistem koordinat tangan kanan dan merupakan konvensi standar dalam matematika dan fisika.
 
 Komponen dasar sistem koordinat:
-* Titik asal $(O)$: Titik acuan $(0, 0, 0)$
-* Sumbu koordinat: Tiga garis berarah $(x, y, z)$ yang saling tegak lurus
-* Aturan tangan kanan: Cara menentukan arah sumbu $z$ positif (ibu jari menunjuk ke arah sumbu $z$ positif saat jari tangan kanan melengkung dari $x$ ke $y$)
+- Titik asal $(O)$: Titik acuan $(0, 0, 0)$.
+- Sumbu koordinat: Tiga garis berarah $(x, y, z)$ yang saling tegak lurus.
+- Aturan tangan kanan: Cara menentukan sumbu $z$ positif (seperti gambar di atas). 
 
-Bidang dan Oktan:
-* Tiga bidang koordinat:
- 
-   1. Bidang $xy$ (di mana $z = 0$)
-   2. Bidang $yz$ (di mana $x = 0$)
-   3. Bidang $xz$ (di mana $y = 0$)
-* Oktan: Ruang dibagi menjadi 8 oktan oleh ketiga bidang tersebut
+Ketiga sumbu koordinat ini menentukan tiga bidang koordinat yang saling tegak lurus, yaitu:
+- Bidang $XY$: bidang yang memuat sumbu-$X$ dan sumbu-$Y$; persamaannya adalah $z = 0$.
+- Bidang $YZ$: bidang yang memuat sumbu-$Y$ dan sumbu-$Z$; persamaannya adalah $x = 0$.
+- Bidang $XZ$: bidang yang memuat sumbu-$X$ dan sumbu-$Z$; persamaannya adalah $y = 0$.
 
-Menentukan titik $P(a, b, c)$:
+![alt text](blob:https://markdownviewer.pages.dev/6c14bf07-722b-4fc4-bda8-386078a1914a)
 
-* Mulai dari titik asal $(0, 0, 0)$
-* Berjalan $a$ satuan sepanjang sumbu $x$
-* Berjalan $b$ satuan sejajar sumbu $y$
-* Berjalan $c$ satuan sejajar sumbu $z$
+Setiap titik $P$ di ruang tiga dimensi dapat dinyatakan secara unik dengan tripel terurut $(x, y, z)$ di mana:
+- $x$ adalah jarak berarah dari titik $P$ ke bidang $YZ$, diukur sejajar dengan sumbu-$X$ (disebut absis).
+- $y$ adalah jarak berarah dari titik $P$ ke bidang $XZ$, diukur sejajar dengan sumbu-$Y$ (disebut ordinat).
+- $z$ adalah jarak berarah dari titik $P$ ke bidang $XY$, diukur sejajar dengan sumbu-$Z$ (disebut aplikat).
+
+Tripel $(x, y, z)$ disebut koordinat Kartesius dari titik $P$, dan dituliskan sebagai $P(x, y, z)$. Penting untuk dipahami bahwa nilai $x$, $y$, dan $z$ dapat berupa bilangan positif, negatif, maupun nol, tergantung pada posisi titik tersebut terhadap titik asal dan bidang-bidang koordinat.
+
+
+> CONTOH SOAL:
+> 1. Tentukan koordinat titik-titik berikut dalam ruang tiga dimensi:
+a) Titik $A$ yang berjarak $3$ satuan dari bidang $YZ$, $4$ satuan dari bidang $XZ$, dan $5$ satuan dari bidang $XY$, semuanya pada arah positif.
+b) Titik $B$ di bidang $XY$ yang berjarak $2$ satuan dari sumbu-$X$ (pada arah positif sumbu-$Y$) dan $7$ satuan dari sumbu-$Y$ (pada arah negatif sumbu-$X$).
+Jawab:
+a) Jarak $3$ satuan dari bidang $YZ$ pada arah positif berarti $x = 3$.
+    Jarak $4$ satuan dari bidang $XZ$ pada arah positif berarti $y = 4$.
+    Jarak $5$ satuan dari bidang $XY$ pada arah positif berarti $z = 5$.
+    Jadi, $A = (3, 4, 5)$.
+b) Titik $B$ di bidang $XY$ berarti $z = 0$.
+    Berjarak $7$ satuan dari sumbu-$Y$ pada arah negatif sumbu-$X$ berarti $x = −7$.
+    Berjarak $2$ satuan dari sumbu-$X$ pada arah positif sumbu-$Y$ berarti $y = 2$.
+    Jadi, $B = (−7, 2, 0)$.
+
+## Oktan dalam Ruang 3D
+Tiga bidang koordinat $(XY, YZ, dan XZ)$ membagi ruang tiga dimensi menjadi delapan bagian yang disebut oktan (octant). Pembagian ini analog dengan pembagian bidang dua dimensi menjadi empat kuadran oleh sumbu-$X$ dan sumbu-$Y$. Setiap oktan ditentukan oleh kombinasi tanda dari koordinat $x$, $y$, dan $z$ dari titik-titik yang berada di dalamnya.
+
+Kedelapan oktan tersebut adalah sebagai berikut:
+| Nama Oktan | Tanda Kiri-Kanan | Kondisi Nilai Koordinat |
+| :--- | :---: | :--- |
+| **Oktan I** | $(+, +, +)$ | $x > 0, y > 0, z > 0$ |
+| **Oktan II** | $(-, +, +)$ | $x < 0, y > 0, z > 0$ |
+| **Oktan III** | $(-, -, +)$ | $x < 0, y < 0, z > 0$ |
+| **Oktan IV** | $(+, -, +)$ | $x > 0, y < 0, z > 0$ |
+| **Oktan V** | $(+, +, -)$ | $x > 0, y > 0, z < 0$ |
+| **Oktan VI** | $(-, +, -)$ | $x < 0, y > 0, z < 0$ |
+| **Oktan VII** | $(-, -, -)$ | $x < 0, y < 0, z < 0$ |
+| **Oktan VIII**| $(+, -, -)$ | $x > 0, y < 0, z < 0$ |
+
+![alt text](blob:https://markdownviewer.pages.dev/ab2c14d3-241c-4b25-b2f9-043f70223305)
+
+Oktan pertama (oktan I) adalah oktan di mana ketiga koordinat bernilai positif, dan biasanya menjadi oktan yang paling sering dijadikan acuan dalam ilustrasi gambar. Konvensi penomoran oktan dapat bervariasi antar penulis, sehingga ada beberapa buku yang menggunakan penomoran berbeda. Yang penting untuk dipahami adalah konsep pembagian ruang oleh tiga bidang koordinat tersebut.
+
+> CONTOH SOAL:
+> 1. Tentukan di oktan manakah masing-masing titik berikut berada:
+a) $P(2, −3, 5)$&emsp;&emsp;b) $Q(−1, −4, −6)$&emsp;&emsp;c) $R(3, 2, −3)$&emsp;&emsp;d) $S(−5, 4, 1)$
+Jawab:
+a) $P(2, −3, 5)$ memiliki tanda $(+, −, +)$ → Oktan IV.
+b) $Q(−1, −4, −6)$ memiliki tanda $(−, −, −)$ → Oktan VII.
+c) $R(3, 2, −3)$ memiliki tanda $(+, +, −)$ → Oktan V.
+d) $S(−5, 4, 1)$ memiliki tanda $(−, +, +)$ → Oktan II.
+![alt text](blob:https://markdownviewer.pages.dev/39e0282b-a293-4c2c-8087-a74d078acbc5)
+
+## 1.2 Penggambaran dan Lokasi Titik dalam Ruang
+Untuk menggambar titik $P(x, y, z)$ dalam ruang tiga dimensi pada kertas (yang sebenarnya hanya dua dimensi), kita menggunakan teknik proyeksi yang disebut proyeksi paralel. Sumbu-$X$ biasanya digambar miring ke bawah-kiri dengan sudut sekitar $30°$ terhadap horizontal, sumbu-$Y$ digambar horizontal ke kanan, dan sumbu-$Z$ digambar vertikal ke atas. Skala pada sumbu-$X$ biasanya diperpendek sekitar setengah dari skala asli untuk memberikan ilusi perspektif tiga dimensi.
+Langkah-langkah untuk menggambar titik $P(a, b, c):$
+1. Mulailah dari titik asal $O$.
+2. Bergerak sejauh a satuan sepanjang sumbu-$X$ (positif jika $a > 0$, negatif jika $a < 0$), tiba di titik $P₁(a, 0, 0)$.
+3. Dari $P₁$, bergerak sejauh $b$ satuan sejajar sumbu-$Y$, tiba di titik $P₂(a, b, 0)$. Titik $P₂$ adalah proyeksi titik $P$ pada bidang $XY$.
+4. Dari $P₂$, bergerak sejauh $c$ satuan sejajar sumbu-$Z$, sampai di titik $P(a, b, c)$.
+
+![alt text](blob:https://markdownviewer.pages.dev/3e30c144-3b5b-4706-8386-eaf46f14150f)
+Cara lain untuk menggambarkan posisi titik $P(a, b, c)$ adalah dengan membayangkan sebuah balok (parallelepiped persegi panjang) yang salah satu sudutnya berada di titik asal $O$ dengan tiga sisi terletak sepanjang ketiga sumbu koordinat. Panjang sisi balok pada sumbu-$X$ adalah $|a|$, pada sumbu-$Y$ adalah $|b|$, dan pada sumbu-$Z$ adalah $|c|$. Titik $P$ berada pada sudut balok yang berseberangan diagonal dengan titik $O$.
+
+> CONTOH SOAL:
+> 1. Misalkan posisi awal berada di titik asal $(0, 0, 0)$. Anda bergerak sejauh $4$ satuan sepanjang sumbu $x$ positif, lalu bergerak sejauh $3$ satuan ke arah bawah (sejajar sumbu $z$ negatif). Tentukan koordinat posisi akhir Anda.
+Jawab:
+-- Titik awal $(0, 0, 0)$
+-- Bergerak sejauh $4$ satuan sepanjang sumbu $x$ positif $(4, 0, 0)$
+-- Bergerak sejauh $3$ satuan ke arah bawah (sejajar sumbu $z$ negatif) $(4, 0, −3)$
+-- Jadi, titik akhir berada di $(4, 0, −3)$
+![alt text](blob:https://markdownviewer.pages.dev/c20ef9fa-ca86-4614-954b-c97a2204d883)
+
+## 1.3 Proyeksi Titik pada Sumbu dan Bidang Koordinat
+Proyeksi merupakan konsep penting dalam geometri analitik tiga dimensi. Proyeksi sebuah titik $P(x, y, z)$ pada suatu objek lain (sumbu atau bidang) adalah titik terdekat pada objek tersebut dari titik $P$. Karena objek-objek koordinat yang kita pertimbangkan (sumbu dan bidang) saling tegak lurus, maka proyeksi-proyeksinya dapat ditentukan dengan sangat mudah.
+1. Proyeksi pada sumbu koordinat
+Proyeksi titik $P(x, y, z)$ pada masing-masing sumbu koordinat adalah:
+• Proyeksi $P$ pada sumbu-$X = (x, 0, 0)$
+• Proyeksi $P$ pada sumbu-$Y = (0, y, 0)$
+• Proyeksi $P$ pada sumbu-$Z = (0, 0, z)$
+Proyeksi pada suatu sumbu diperoleh dengan mempertahankan koordinat yang sesuai dengan sumbu tersebut, dan mengenolkan dua koordinat lainnya.
+
+2. Proyeksi pada bidang koordinat
+Proyeksi titik $P(x, y, z)$ pada masing-masing bidang koordinat adalah:
+• Proyeksi $P$ pada bidang $XY = (x, y, 0)$
+• Proyeksi $P$ pada bidang $YZ = (0, y, z)$
+• Proyeksi $P$ pada bidang $XZ = (x, 0, z)$
+Proyeksi pada suatu bidang diperoleh dengan mempertahankan dua koordinat yang sesuai dengan bidang tersebut, dan mengenolkan satu koordinat yang tegak lurus dengan bidang itu.
+
+> CONTOH SOAL:
+> 1. Diketahui titik $A(−2, 5, 7)$. Tentukan:
+a) Koordinat proyeksi $A$ pada sumbu$-$X, sumbu-$Y$, dan sumbu-$Z$.
+b) Koordinat proyeksi $A$ pada bidang $XY$, $YZ$, dan $XZ$.
+c) Koordinat refleksi (cermin) $A$ terhadap bidang $XY$.
+Jawab:
+a) Proyeksi $A$ pada sumbu-$X = (−2, 0, 0)$.
+&emsp;Proyeksi $A$ pada sumbu-$Y = (0, 5, 0)$.
+&emsp;Proyeksi $A$ pada sumbu-$Z = (0, 0, 7)$.
+b) Proyeksi $A$ pada bidang $XY = (−2, 5, 0)$.
+&emsp;Proyeksi $A$ pada bidang $YZ = (0, 5, 7)$.
+&emsp;Proyeksi $A$ pada bidang $XZ = (−2, 0, 7)$.
+c) Refleksi $A$ terhadap bidang $XY$ diperoleh dengan membalik tanda koordinat $z: (−2, 5, −7)$.
+
+## Sistem Koordinat Silinder
+Selain sistem koordinat Kartesius, terdapat sistem koordinat lain yang sering digunakan dalam ruang tiga dimensi, yaitu sistem koordinat silinder. Sistem ini sangat berguna untuk menggambarkan objek-objek yang memiliki simetri putar terhadap suatu sumbu, seperti silinder, kerucut, dan permukaan rotasi lainnya.
+
+Dalam sistem koordinat silinder, sebuah titik $P$ di ruang dinyatakan dengan tripel terurut $(r, θ, z)$, di mana:
+- $r$ adalah jarak titik $P$ dari sumbu-$Z$ (selalu bernilai non-negatif, $r ≥ 0)$.
+- $θ$ adalah sudut yang dibentuk oleh proyeksi $OP$ pada bidang $XY$ dengan sumbu-$X$ positif (sudut polar), diukur berlawanan arah jarum jam dari sumbu-$X$ positif. Biasanya $0 ≤ θ < 2π$.
+- $z$ adalah koordinat Kartesius biasa, yaitu jarak berarah dari titik $P$ ke bidang $XY$.
+
+Hubungan antara koordinat Kartesius $(x, y, z)$ dan koordinat silinder $(r, θ, z)$ diberikan oleh rumus berikut:
+$x = r$ $cos$ $θ$,   $y = r$ $sin$ $θ$,   $z = z$
+
+Sebaliknya, untuk mengubah dari koordinat Kartesius ke koordinat silinder, digunakan rumus:
+$r = \sqrt{(x² + y²)}$,   $tan$ $θ$ $= \frac{y}{x}$,   $z = z$
+
+Perhatikan bahwa dalam menentukan $θ$ dari $tan$ $θ$ $= \frac{y}{x}$, kita harus memperhatikan kuadran di mana titik proyeksi $(x, y)$ berada untuk mendapatkan nilai $θ$ yang benar (yaitu $0 ≤ θ < 2π$).
+
+> CONTOH SOAL:
+> 1. Ubahlah titik $P(2, 2\sqrt{3}, 5)$ dari koordinat Kartesius ke koordinat silinder.
+Jawab:
+Diketahui
+-> $x = 2$ 
+-> $y = 2\sqrt{3}$
+-> $z = 5$
+$r = \sqrt{(x² + y²)}$ = $\sqrt{(4 + 12)}$ = $\sqrt{16} = 4$.
+$tan$ $θ$ $= \frac{y}{x} = \frac{2\sqrt{3}}{2} = \sqrt{3}$.
+Karena $x > 0$ dan $y > 0$, titik proyeksi berada di kuadran I, sehingga $θ$ $= \frac{π}{3} = (60°)$.
+$z = 5$.
+Jadi, koordinat silinder titik $P$ adalah $(4, \frac{π}{3}, 5)$.
+
+
+## 1.4 Sistem Koordinat Bola
+Sistem koordinat bola atau koordinat sferis adalah sistem koordinat yang sangat berguna untuk menggambarkan objek-objek dengan simetri bola, seperti permukaan bola, bola berlubang, dan objek-objek lain yang berpusat di titik asal. Dalam sistem ini, sebuah titik $P$ di ruang dinyatakan dengan tripel $(ρ, θ, φ)$, di mana:
+- $ρ$ (rho) adalah jarak titik $P$ dari titik asal $O$, dengan $ρ ≥ 0$.
+- $θ$ adalah sudut polar (sama dengan $θ$ pada koordinat silinder), yaitu sudut yang dibentuk oleh proyeksi $OP$ pada bidang $XY$ dengan sumbu-$X$ positif. Biasanya $0 ≤ θ < 2π$.
+- $φ$ (phi) adalah sudut yang dibentuk oleh ruas garis $OP$ dengan sumbu-$Z$ positif (sudut polar atas / sudut kolatitude). Biasanya $0 ≤ φ ≤ π$.
+
+Beberapa buku menggunakan notasi yang berbeda untuk koordinat bola. Misalnya, dalam beberapa referensi (terutama yang berorientasi fisika), urutan dan nama variabel dapat berbeda. Konvensi yang umum di matematika adalah $(ρ, θ, φ)$ dengan $θ$ sebagai sudut azimut dan $φ$ sebagai sudut polar. Dalam ringkasan ini, kita akan menggunakan konvensi tersebut.
+Hubungan antara koordinat Kartesius $(x, y, z)$ dan koordinat bola $(ρ, θ, φ)$ diberikan oleh:
+- $x$ $= ρ$ $sin$ $φ$ $cos$ $θ$
+- $y$ $= ρ$ $sin$ $φ$ $sin$ $θ$
+- $z$ $= ρ$ $cos$ $φ$
+
+Sebaliknya, untuk mengubah dari koordinat Kartesius ke koordinat bola:
+$$ρ = \sqrt{(x² + y² + z²)}$$
+$$cos φ = \frac{z}{ρ}$$   
+$$tan θ = \frac{y}{x}$$
+Dapat juga ditulis: $φ = arccos \frac{z}{ρ}$ dengan $0 ≤ φ ≤ π$.
+
+> CONTOH SOAL:
+> 1. Ubahlah titik $P(1, \sqrt{3}, 2)$ dari koordinat Kartesius ke koordinat bola.
+Jawab:
+Diketahui 
+> $x = 1$, $y = \sqrt{3}$, $z = 2$.
+$ρ = \sqrt{(x² + y² + z²)}$ $= \sqrt{(1 + 3 + 4)}$ $= \sqrt{8}$ $= 2\sqrt{2}$.
+$cos$ $φ$ $= \frac{z}{ρ}$ $= \frac{2}{2\sqrt{2}}$ $= \frac{1}{\sqrt{2}}$ $= \frac{\sqrt{2}}{2}$, jadi $φ = \frac{π}{4}$.
+$tan$ $θ$ $= \frac{y}{x}$ $= \frac{\sqrt{3}}{1}$ $= \sqrt{3}$.
+Karena $x > 0$ dan $y > 0$, maka $θ$ berada di kuadran I sehingga $θ = 
+\frac{π}{3}$.
+Jadi, koordinat bola titik $P$ adalah $(2\sqrt{2}, \frac{π}{3}, \frac{π}{4})$.
+
+
+## 1.5 Transformasi Antar Sistem Koordinat
+Transformasi antar sistem koordinat sangat penting karena setiap masalah memiliki sistem koordinat yang paling sesuai. Misalnya, untuk menggambarkan permukaan bola, sistem koordinat bola jauh lebih sederhana daripada sistem Kartesius. Sementara itu, untuk masalah yang melibatkan benda berbentuk silinder, koordinat silinder lebih sesuai.
+Berikut ringkasan transformasi antar tiga sistem koordinat utama:
+1. Kartesisu $\leftrightarrow$ Silinder
+Silinder $→$ Kartesius: $x$ $=$ $r$ $cos$ $θ$, $y$ $= r$ $sin$ $θ$, $z = z$
+Kartesius $→$ Silinder: $r =$ $\sqrt{(x² + y²)}$, $θ =$ $arctan\frac{y}{x}$, $z = z$
+2. Kartesius $\leftrightarrow$ Bola
+Bola $→$ Kartesius: $x$ $= ρ$ $sin$ $φ$ $cos$ $θ$, $y$ $= ρ$ $sin$ $φ$ $sin$ $θ$, $z =$ $ρ$ $cos$ $φ$
+Kartesius $→$ Bola: $ρ =$ $\sqrt{(x² + y² + z²)}$, $θ$ $= arctan$$\frac{y}{x}$, $φ$ $= arccos$$\frac{z}{ρ}$
+3. Silinder $\leftrightarrow$ Bola 
+Bola $→$ Silinder: $r =$ $ρ$ $sin$ $φ$, $θ = θ$, $z =$ $ρ$ $cos$ $φ$
+Silinder $→$ Bola: $ρ =$ $\sqrt{r² + z²}$, $θ$ $= θ$, $φ$ $=$ $arcta$$\frac{r}{z}$
+
+> CONTOH SOAL:
+> 1. Sebuah titik dinyatakan dalam koordinat silinder sebagai $(3, \frac{π}{4}, 4)$. Tentukan koordinat titik tersebut dalam:
+a) Sistem Kartesius&emsp;&emsp;b) Sistem bola
+Jawab:
+a) $r = 3$, $θ = \frac{π}{4}$, $z = 4$.
+&emsp;$x =$ $r$ $cos$ $θ$ $=$ $3$ $cos$$\frac{π}{4}$ $=$ $3$ $×$ $\frac{\sqrt{2}}{2}$ $=$ $\frac{3\sqrt{2}}{2}$.
+&emsp;$y$ $=$ $r$ $sin$ $θ$ $= 3$ $sin$$\frac{π}{4}$ $=$ $3$ $×$ $\frac{\sqrt{2}}{2}$ $=$ $\frac{3\sqrt{2}}{2}$.
+&emsp;$z = 4$.
+&emsp;&emsp;&emsp;Koordinat Kartesius: $(\frac{3\sqrt{2}}{2}, \frac{3\sqrt{2}}{2}, 4)$.
+b) $ρ =$ $\sqrt{(r² + z²)}$ $= \sqrt{(9 + 16)}$ $=$ $\sqrt{25}$ $=$ $5$.
+&emsp;$θ =$ $\frac{π}{4}$ (sama dengan silinder).
+&emsp;$tan$ $φ$ $=$ $\frac{r}{z}$ $= \frac{3}{4}$, sehingga $φ$ $=$ $arctan$$\frac{3}{4}$ $≈$ $36,87°$ $≈$ $0,6435$ radian.
+&emsp;&emsp;&emsp;Koordinat bola: $(5, \frac{π}{4}, arctan \frac{3}{4})$.
 
 <div align="center">
   <img src="https://i.pinimg.com/736x/f3/06/89/f3068984ab873ffb897eebba5cbf399e.jpg" width="500">
    
 </div>
-
-Proyeksi titik
-
-Setiap titik $P(a, b, c)$ membentuk "kotak persegi panjang" di ruang.
-* Proyeksi adalah bayangan titik pada bidang:
-
-  1. $Q(a, b, 0)$ → Proyeksi pada bidang $xy$.
-  2. $R(0, b, c)$ → Proyeksi pada bidang $yz$.
-  3. $S(a, 0, c)$ → Proyeksi pada bidang $xz$.
-
-Contoh soal:
-
-Misalkan posisi awal berada di titik asal $(0, 0, 0)$. Anda bergerak sejauh 4 satuan sepanjang sumbu $x$ positif, lalu bergerak sejauh 3 satuan ke arah bawah (sejajar sumbu $z$ negatif). Tentukan koordinat posisi akhir Anda.
-
-Penyelesaian:
-
-<div align="center">
-  <img src="https://i.pinimg.com/736x/fa/00/5a/fa005a4d692a9d2f926fb8b3206934f3.jpg" width="500">
-   
-</div>
-
-* Titik awal $(0, 0, 0)$
-
-* Bergerak sejauh 4 satuan sepanjang sumbu $x$ positif $(4, 0, 0)$
-
-* Bergerak sejauh 3 satuan ke arah bawah (sejajar sumbu $z$ negatif) $(4, 0, -3)$
-
-* Jadi, titik akhir berada di $(4, 0, -3)$
 
 
 ## 2. Jarak Antara Dua Titik
