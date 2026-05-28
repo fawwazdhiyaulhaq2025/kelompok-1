@@ -229,7 +229,7 @@ b) $ρ =$ $\sqrt{(r² + z²)}$ $= \sqrt{(9 + 16)}$ $=$ $\sqrt{25}$ $=$ $5$.
 Jarak antara dua titik dalam ruang adalah perluasan dari jarak pada bidang. Fondasi utamanya tetap menggunakan Teorema Phytagoras, namun diterapkan pada tiga sumbu koordinat yang saling tegak lurus. Dalam geometri ruang sebuah titik tidak lagi diwakili oleh $(x, y)$, tetapi diwakili oleh triple koordinat $(x, y,z)$. Dengan adanya penambahan dimensi ketiga (sumbu $z$) memungkinkan kita merepresentasikan posisi titik dalam ruang hampa, mencakup panjang, lebar, dan tinggi.
 
 A. a. Rumus Jarak dua titik (2D)
-Jika diketahui titik A$(x_1, y_2)$ dan B$(x_2, y_2)$, maka jarak AB dirumuskan sebagai:
+Jika diketahui titik $A(x_1, y_2)$ dan $B(x_2, y_2)$, maka jarak AB dirumuskan sebagai:
 
 $d=\sqrt{(x^2-x^1)^2+(y_2-y_1)^2}$
 
@@ -238,7 +238,7 @@ Keterangan:
 - $y_2 - y_1$ = selisih koordinat $y$
 
 > CONTOH SOAL:
->Tentukan jarak titik A$(2, 3)$ dan B$(7, 15)$
+>Tentukan jarak titik $A(2, 3)$ dan B$(7, 15)$
 Penyelesaian: 
 Diketahui: 
 $x_1=2$
@@ -251,13 +251,13 @@ $d=\sqrt{5^2+12^2}$
 $d=\sqrt{25+144}$
 $d=\sqrt{169}$
 $d=13$
-jadi, jarak antara titik adalah 13.
+jadi, jarak antara titik adalah $13$.
 
    b. Jarak dua titik (3D)
 Pada ruang tiga dimensi, titk dinyatakan sebagai $(x, y, z)$. Konsep jarak diperluas dengan menambahkan sumbu $z$.
 
 * Rumus jarak dua titik (3D)
-Jika diketahui titik A$(x_1, y_2, z_3)$ dan B$(x_1, y_2, z_3)$, maka jarak $d$ diantara keduanya adalah:
+Jika diketahui titik $A(x_1, y_2, z_3)$ dan $B(x_1, y_2, z_3)$, maka jarak $d$ diantara keduanya adalah:
 
 $d = \sqrt{(x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2}$
 
@@ -277,7 +277,7 @@ $d = \sqrt{3^2 + 4^2 + 12^2}$
 $d = \sqrt{9 + 16 + 144}$
 $d = \sqrt{169}$
 $d = 13$
-jadi, jarak titk  antara $A$ dan $B$ adalah 13.
+jadi, jarak titk  antara $A$ dan $B$ adalah $13$.
 
 B. a. Jarak titk ke garis (2D)
 Jarak titik ke garis adalah panjang ruas garis terpendek dari titk menuju garis, yaitu garis tegak lurus terhadap garis tersebut. 
@@ -495,76 +495,6 @@ d. $(-1,0)$ dan $(3,2)$
 24. Tentukan jarak antara titik $(1, 2, 3)$ dan titik $(4, 6, 3)$ di ruang tiga dimensi.
 25. Dua titik $A(p, 2)$ dan $B(6, q)$ memiliki titik tengah $M(3, 5)$. Hitung jarak $AB$.
 
-  1. Bidang (3D): Jika terdapat dua titik dalam ruang $P_1(x_1, y_2, z_3)$ dan $P_2(x_1, y_2, z_3)$, maka jarak d diantara keduanya adalah: 
-$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$
-
-  2. Sifat Non-negatif: Karena setiap komponen selisih koordinat dikuadratkan, hasil di bawah akar akan selalu positif atau nol, sehingga jarak tidak pernah bernilai negatif.
-
-  b. Konsep Titik Tengah (Midpoint) dalam Ruang 
-
-   Titik tengah $M$ yang menghubungkan $P_1(x_1, y_2, z_3)$ dan  $P_2(x_1, y_2, z_3)$ adalah 
-   $M= (\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2})$
-  
-  c. Aplikasi Geometris: Dari Lingkaran ke Bola
-
-   Di dalam ruang, konsep lingkaran diperluas menjadi bola. Sebuah bola didefinisikan sebagai semua titik $(x, y, z)$ yang jaraknya dari titik pusat tertentu $(h,k,l)$ adalah konstan $(r)$.
-   * Persamaan Bola
-     
-  Menggunakan rumus jarak, persamaan standar sebuah bola adalah:
-  $(x-h)^2+(y-k)^2+(z-l)^2=r^2$
-
- Contoh soal:
-
-   1. Tentukan jarak antara titik $P_1(1, 0, 2)$ dan  $P_2(3, 4, 6)$ dalam ruang koordinat tiga dimensi.
-Penyelesaian:
-
-      a. Identifikasi koordinat:
-
-       * $P_1: x_1=1, y_1=0, z_1=2$
-
-       * $P_2: x_2=3, y_2=4, z_2=6$
-
-      b. Gunakan rumus jarak ruang:
-
-         $d=\sqrt{(x^2-x^1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$
-
-      c. Substitusikan nilai ke dalam rumus jarak:
-
-         $\sqrt{d  =(3-1)^2+(4-0)^2+(6-2)^2}$
- 
-         $\sqrt{d  =(2)^2+(4)^2+(4)^2}$
-   
-         $\sqrt{d  =4+16+16}$
-
-         $\sqrt{d  =36}$
-
-         $d  =6$
-
-         jadi, jarak antara kedua titik tersebut adalah 6 satuan.
-
-   2. Tentukan nilai $x$ jika jarak antara titik $A(2,-1, 4)$ dan  $B(x, 3, 4)$ adalah 5 satuan.
-
-       Penyelesaian: 
-
-      d. Identifikasi koordinat:
-
-         * $P_1:x_1=1, y_1=0, z_1=2$
-
-         * $P_2:x_2=x, y_2=4, z_2=6$
-
-      e. Gunakan rumus jarak ruang:
-          $d =\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$
-
-      f. Substitusikan nilai ke dalam rumus jarak:
-
-         $5 =\sqrt{(x-2)^2+(3-(-1))^2+(4-4)^2}$
-         $5  =\sqrt{(x-2)^2+(4)^2+(0)^2}$
-         $5  =\sqrt{(x-2)^2+16}$
-         $25 =(x-2)^2+16$
-         $9   =(x-2)^2$
-         $x-2=3$    atau    $x-2=-3$
-         $x=5$      atau    $x=-1$
-         jadi, nilai yang memenuhi $x adalah  antara 5 atau -1. 
 
 
 # BAB 3 VEKTOR DALAM RUANG TIGA DIMENSI
