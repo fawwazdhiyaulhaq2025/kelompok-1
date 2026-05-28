@@ -228,8 +228,273 @@ b) $ρ =$ $\sqrt{(r² + z²)}$ $= \sqrt{(9 + 16)}$ $=$ $\sqrt{25}$ $=$ $5$.
 ## 2. Jarak Antara Dua Titik
 Jarak antara dua titik dalam ruang adalah perluasan dari jarak pada bidang. Fondasi utamanya tetap menggunakan Teorema Phytagoras, namun diterapkan pada tiga sumbu koordinat yang saling tegak lurus. Dalam geometri ruang sebuah titik tidak lagi diwakili oleh $(x, y)$, tetapi diwakili oleh triple koordinat $(x, y,z)$. Dengan adanya penambahan dimensi ketiga (sumbu $z$) memungkinkan kita merepresentasikan posisi titik dalam ruang hampa, mencakup panjang, lebar, dan tinggi.
 
-  a. Rumus Jarak dalam Ruang
-    
+A. a. Rumus Jarak dua titik (2D)
+Jika diketahui titik A$(x_1, y_2)$ dan B$(x_2, y_2)$, maka jarak AB dirumuskan sebagai:
+
+$d=\sqrt{(x^2-x^1)^2+(y_2-y_1)^2}$
+
+Keterangan:
+- $x_2 ​- x_1$ = selisih koordinat $x$
+- $y_2 - y_1$ = selisih koordinat $y$
+
+> CONTOH SOAL:
+>Tentukan jarak titik A$(2, 3)$ dan B$(7, 15)$
+Penyelesaian: 
+Diketahui: 
+$x_1=2$
+$x_2=7$
+$y_1=3$
+$y_2=15$
+substitusi ke dalam rumus:
+$d=\sqrt{(7−2)^2+(15-7)^2}$
+$d=\sqrt{5^2+12^2}$
+$d=\sqrt{25+144}$
+$d=\sqrt{169}$
+$d=13$
+jadi, jarak antara titik adalah 13.
+
+   b. Jarak dua titik (3D)
+Pada ruang tiga dimensi, titk dinyatakan sebagai $(x, y, z)$. Konsep jarak diperluas dengan menambahkan sumbu $z$.
+
+* Rumus jarak dua titik (3D)
+Jika diketahui titik A$(x_1, y_2, z_3)$ dan B$(x_1, y_2, z_3)$, maka jarak $d$ diantara keduanya adalah:
+
+$d = \sqrt{(x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2}$
+
+> CONTOH SOAL:
+> Tentukan jarak titik A $(1, 2, 3)$ dan B $(4, 6, 15)$
+Penyelesaian:
+Diketahui: 
+$x_1=1$, 
+$x_2=4$, 
+$y_1=2$, 
+$y_2=6$, 
+$z_1=3$, 
+$z_2=15$, 
+substitusi ke dalam rumus:
+$d = \sqrt{(4 - 1)^2 + (6 - 2)^2 + (15 - 3)^2}$
+$d = \sqrt{3^2 + 4^2 + 12^2}$
+$d = \sqrt{9 + 16 + 144}$
+$d = \sqrt{169}$
+$d = 13$
+jadi, jarak titk  antara $A$ dan $B$ adalah 13.
+
+B. a. Jarak titk ke garis (2D)
+Jarak titik ke garis adalah panjang ruas garis terpendek dari titk menuju garis, yaitu garis tegak lurus terhadap garis tersebut. 
+* Persamaan titik ke garis
+Garis biasa ditulis dengan persamaan $ax + by + c = 0$, dan untuk menghitung  jarak titik ke garis digunakan rumus:
+
+$d = \frac{|ax0 + by0 + c|}\sqrt{(a² + b²)}$
+
+Contoh soal
+Tentukan jarak titik $P(2, 1)$ terhadap garis 
+
+$3x + 4y - 10 = 0$
+
+Penyelesaian:
+Diketahui:
+$A=3$, $B=4$, $C-10$
+$(x_1, y_1) = (2, 1)$
+substitusikan kedalam rumus:
+$d = \frac{|3(2) + 4(1) - 10|}\sqrt{(3² + 4²)}$
+$d = \frac{|6 + 4 - 10|}\sqrt{(9 + 16)}$
+$d = \frac{|0|}\sqrt{(25)}$
+$d = 0$
+jadi, jarak titik $P(2, 1)$ terhadap garis $3x + 4y - 10 = 0$ adalah $0$
+
+  b. Jarak titik ke garis (3D)
+Dalam ruang tiga dimensi, garis biasanya dinyatakan dalam bentuk parametrik atau vektor. Dalam ruang tiga dimensi garis biasanya ditulis dalam bentuk: 
+
+$\frac{x−x_1}​​{a} = \frac{y−y_1​​}{b} = \frac{z−z_1}{c}$​​
+
+* Rumus jarak titik ke garis (3D)
+Jika titk $A$ berada di garis $A(x_1, y_2, z_3)$ dan $v$ adalah vektor arah garis $v=(a,b,c)$, maka jarak titik $P$ ke garis dapat dicari menggunakan:
+$d=\frac{∣AP×v∣}{​∣v∣}$
+
+> CONTOH SOAL:
+> Tentukan jarak titik P(1, 2, 3) ke garis
+
+$\frac{x}{1}​=\frac{y​}{2}=\frac{z}​{2}$
+
+Penyelesaian:
+Diketahui:
+$v=(1,2,2)$
+$A(0,0,0)$
+$AP=(1,2,3)$
+maka:
+AP×v=i j k
+     1 2 3
+     1 2 2 
+    =(−2,1,0)
+substitusikan ke dalam rumus:
+$d=\frac{∣AP×v∣}​{∣v∣}$
+$d=\frac\sqrt({(−2)^2+1^2+0^2}x\sqrt1^2+2^2+2^2}{1^2+2^2+2^2})$
+$d=\sqrt{5}x3$
+
+
+C. Jarak titik ke bidang (3D)
+Bidang dalam ruang dinyatakan dalam bentuk $ax + by + cz + d = 0$ untuk titik $P(x_1, y_1, z_1)$.
+* Rumus untuk jarak titik ke bidang
+Jika titik $P(x_1,y_1,z_1) dan bidang $ax+by+cz+d=0$, maka jaraknya adalah:
+
+$d = \frac{|ax1 + by1 + cz1 + d|}\sqrt{(a²+b²+c²)}$
+
+> CONTOH SOAL:
+Tentukan jarak titik $P(1,2,3)$ terhadap bidang:
+
+$2x−y+2z−5=0$
+
+Penyelesaian:
+$d = \frac{|2(1) + 1(2) + 2(3) + 5|}\sqrt{(2²-1²+2²)}$
+$d = \frac{|2 - 2 + 6 - 5|}\sqrt{(4+1+4)}$
+$d = \frac{1}{3}$
+
+D. Jarak dua garis 
+* Sejajar dalam ruang
+Dua garis sejajar memiliki vektor arah yang sama atau kelipatan satu sama lain.
+
+Jika dua garis sejajar:
+
+
+> CONTOH SOAL:
+
+
+* Bersilangan (Skew Lines)
+Garis bersilangan adalah garis yang tidak sejajar dan tidak berpotongan. 
+	​
+Formula rumus:
+
+
+> CONTOH SOAL:
+
+
+LATIHAN SOAL 
+1. Berapakah jarak antara titik $P(2,3)$ dan $Q(5,7)$?
+a. $4$ satuan
+b. $5$ satuan
+c. $6$ satuan
+d. $7$ satuan
+
+2. Hitunglah jarak antara titik $A(-1,2)$ dan $B(3,-1)$.
+a. $4$ satuan
+b. $5$ satuan
+c. $√13$ satuan
+d. $√17$ satuan
+
+3. Tentukan jarak titik asal $(0,0)$ ke titik $D(6,8)$.
+a. $√50$ satuan
+b. $√72$ satuan
+c. $10$ satuan
+d. $14$ satuan
+
+4. Jika titik $E(x,5)$ dan $F(2,1)$ berjarak $5$ satuan, maka nilai $x$ yang mungkin adalah…
+a. $x = 2$ atau $x = 8$
+b. $x = 0$ atau $x = 4$
+c. $x = -1$ atau $x = 5$
+d. $x = 1$ atau $x = 3$
+
+5. Berapakah jarak antara titik $P(1,2,3)$ dan $Q(4,5,6)$ di ruang tiga dimensi?
+a. $√18$ satuan
+b. $√27$ satuan
+c. $3√3$ satuan
+d. $√45$ satuan
+
+6. Jarak antara titik $(a, 0)$ dan $(0, b)$ adalah…
+a. $|a+b|$
+b. $|a-b|$
+c. $√(a²+b²)$
+d. $a+b$
+
+7. Titik $(k, 3)$ berjarak $5$ satuan dari titik $(1, 0)$. Nilai $k$ yang mungkin adalah…
+a. $k = 4$ atau $k = -2$
+b. $k = -3$ atau $k = 5$
+c. $k = 0$ atau $k = 2$
+d. $k = 1$ atau $k = 4$
+
+8. Jika titik $A(2,y)$ dan $B(5,-1)$ berjarak $3√2$ satuan, maka nilai $y$ yang mungkin adalah…
+y = 1 atau y = -3
+y = 0 atau y = -2
+y = 2 atau y = -4
+y = -1 atau y = -5
+
+9. Titik P(3,4) dan Q(x,y). Jika titik asal O(0,0) adalah titik tengah ruas garis PQ, berapakah jarak PQ?
+5 satuan
+√50 satuan
+√75 satuan
+10 satuan
+
+10. Sebuah segitiga ABC memiliki koordinat A(1,1), B(4,1), dan C(4,5). Berapakah panjang sisi AC?
+3 satuan
+4 satuan
+5 satuan
+√34 satuan
+
+11. Sebuah lingkaran berpusat di (2,3) dan melalui titik (5,7). Berapakah jari-jari lingkaran tersebut?
+3 satuan
+√13 satuan
+5 satuan
+√41 satuan
+
+12. Manakah pernyataan yang paling tepat mengenai rumus jarak titik ke titik?
+Rumus jarak hanya berlaku untuk titik-titik pada sumbu koordinat.
+Rumus jarak titik ke titik hanya digunakan untuk mencari panjang sisi miring segitiga.
+Rumus jarak titik ke titik merupakan generalisasi dari Teorema Pythagoras.
+Rumus jarak hanya dapat digunakan pada bidang 2 dimensi.
+
+13. Jarak titik (a,b,c) ke titik asal (0,0,0) di ruang tiga dimensi adalah…
+|a+b+c|
+a+b+c
+√(a²+b²+c²)
+√(a²+b²)
+
+14. Dua titik berada pada sumbu X, yaitu P(x1, 0) dan Q(x2, 0). Jarak PQ adalah…
+x1+x2
+x2-x1
+|x2-x1|
+√(x1²+x2²)
+
+15. Dua titik berada pada bidang YZ, yaitu P(0, y1, z1) dan Q(0, y2, z2). Jarak PQ adalah…
+√((y1-z1)² + (y2-z2)²)
+√((y2-y1)²)
+√((y2-y1)² + (z2-z1)²)
+|y2-y1| + |z2-z1|
+
+16. Titik A(2,3) dan B(5,k). Jika jarak AB adalah 3 satuan, maka nilai k adalah…
+k = 0
+k = 3
+k = 6
+k = 9
+
+17. Jika (x-1)² + (y-2)² = 25, maka ini berarti titik (x,y) berjarak berapa satuan dari titik (1,2)?
+√5 satuan
+√25 satuan
+5 satuan
+25 satuan
+
+18. Rumus jarak antara dua titik (x1,y1) dan (x2,y2) adalah…
+|x2-x1| + |y2-y1|
+(x2-x1)² + (y2-y1)²
+√((x2-x1)² + (y2-y1)²)
+√((x2+x1)² + (y2+y1)²)
+
+19. Jika titik A(1, -2), B(1, 3), dan C(k, 0) membentuk segitiga sama kaki dengan panjang AB = BC, maka nilai k yang mungkin adalah…
+k = 1 atau k = -1
+k = 2 atau k = -2
+k = 5 atau k = -3
+k = 0 atau k = 4
+
+20. Pilih pasangan titik yang memiliki jarak $5$ satuan:
+a. $(1,1)$ dan $(2,3)$
+b. $(0,0)$ dan $(3,4)$
+c. $(2,5)$ dan $(4,7)$
+d. $(-1,0)$ dan $(3,2)$
+
+21. Hitung jarak antara titik $P(-3, 5)$ dan $Q(4, -2)$.
+22. Sebuah titik $A(x, 4)$ berjarak $10$ satuan dari titik $B(2, -2)$. Tentukan semua nilai $x$ yang mungkin.
+23. Jelaskan mengapa rumus jarak dua titik pada bidang Kartesius merupakan aplikasi dari teorema Pythagoras.
+24. Tentukan jarak antara titik $(1, 2, 3)$ dan titik $(4, 6, 3)$ di ruang tiga dimensi.
+25. Dua titik $A(p, 2)$ dan $B(6, q)$ memiliki titik tengah $M(3, 5)$. Hitung jarak $AB$.
+
   1. Bidang (3D): Jika terdapat dua titik dalam ruang $P_1(x_1, y_2, z_3)$ dan $P_2(x_1, y_2, z_3)$, maka jarak d diantara keduanya adalah: 
 $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$
 
