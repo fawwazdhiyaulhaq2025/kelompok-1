@@ -14,7 +14,9 @@ Sistem koordinat Kartesius tiga dimensi (3D) terdiri dari tiga sumbu yang saling
 - Sumbu-$Y$ digambar mengarah ke kanan (ke samping).
 - Sumbu-$Z$ digambar mengarah ke atas.
 
-![alt text](blob:https://markdownviewer.pages.dev/23968116-6142-45ee-b12d-2330f1eb62eb)
+<div align="center">
+   <img src="https://i.ibb.co.com/VY3WPy4h/Aturan-Tangan-Kanan.jpg" width="500">
+ </div>
 
 Arah positif dari ketiga sumbu mengikuti kaidah tangan kanan (right-hand rule). Jika ibu jari, telunjuk, dan jari tengah tangan kanan diluruskan sehingga ketiganya saling tegak lurus, maka ibu jari menunjuk arah positif sumbu-$Z$, telunjuk menunjuk arah positif sumbu-$Y$, dan jari tengah menunjuk arah positif sumbu-$X$. Sistem yang demikian disebut sistem koordinat tangan kanan dan merupakan konvensi standar dalam matematika dan fisika.
 
@@ -28,7 +30,9 @@ Ketiga sumbu koordinat ini menentukan tiga bidang koordinat yang saling tegak lu
 - Bidang $YZ$: bidang yang memuat sumbu-$Y$ dan sumbu-$Z$; persamaannya adalah $x = 0$.
 - Bidang $XZ$: bidang yang memuat sumbu-$X$ dan sumbu-$Z$; persamaannya adalah $y = 0$.
 
-![alt text](blob:https://markdownviewer.pages.dev/6c14bf07-722b-4fc4-bda8-386078a1914a)
+<div align="center">
+<img src="https://i.ibb.co.com/qM92KJSD/Bidang.jpg" width="500">
+</div>
 
 Setiap titik $P$ di ruang tiga dimensi dapat dinyatakan secara unik dengan tripel terurut $(x, y, z)$ di mana:
 - $x$ adalah jarak berarah dari titik $P$ ke bidang $YZ$, diukur sejajar dengan sumbu-$X$ (disebut absis).
@@ -67,7 +71,9 @@ Kedelapan oktan tersebut adalah sebagai berikut:
 | **Oktan VII** | $(-, -, -)$ | $x < 0, y < 0, z < 0$ |
 | **Oktan VIII**| $(+, -, -)$ | $x > 0, y < 0, z < 0$ |
 
-![alt text](blob:https://markdownviewer.pages.dev/ab2c14d3-241c-4b25-b2f9-043f70223305)
+<div align="center">
+<img src="" width="500">
+</div>
 
 Oktan pertama (oktan I) adalah oktan di mana ketiga koordinat bernilai positif, dan biasanya menjadi oktan yang paling sering dijadikan acuan dalam ilustrasi gambar. Konvensi penomoran oktan dapat bervariasi antar penulis, sehingga ada beberapa buku yang menggunakan penomoran berbeda. Yang penting untuk dipahami adalah konsep pembagian ruang oleh tiga bidang koordinat tersebut.
 
@@ -79,7 +85,10 @@ a) $P(2, −3, 5)$ memiliki tanda $(+, −, +)$ → Oktan IV.
 b) $Q(−1, −4, −6)$ memiliki tanda $(−, −, −)$ → Oktan VII.
 c) $R(3, 2, −3)$ memiliki tanda $(+, +, −)$ → Oktan V.
 d) $S(−5, 4, 1)$ memiliki tanda $(−, +, +)$ → Oktan II.
-![alt text](blob:https://markdownviewer.pages.dev/39e0282b-a293-4c2c-8087-a74d078acbc5)
+
+<div align="center">
+<img src="https://i.ibb.co.com/d4f5yD93/Contoh-soal-Oktan.jpg" width="500">
+</div>
 
 ## 1.2 Penggambaran dan Lokasi Titik dalam Ruang
 Untuk menggambar titik $P(x, y, z)$ dalam ruang tiga dimensi pada kertas (yang sebenarnya hanya dua dimensi), kita menggunakan teknik proyeksi yang disebut proyeksi paralel. Sumbu-$X$ biasanya digambar miring ke bawah-kiri dengan sudut sekitar $30°$ terhadap horizontal, sumbu-$Y$ digambar horizontal ke kanan, dan sumbu-$Z$ digambar vertikal ke atas. Skala pada sumbu-$X$ biasanya diperpendek sekitar setengah dari skala asli untuk memberikan ilusi perspektif tiga dimensi.
@@ -89,7 +98,9 @@ Langkah-langkah untuk menggambar titik $P(a, b, c):$
 3. Dari $P₁$, bergerak sejauh $b$ satuan sejajar sumbu-$Y$, tiba di titik $P₂(a, b, 0)$. Titik $P₂$ adalah proyeksi titik $P$ pada bidang $XY$.
 4. Dari $P₂$, bergerak sejauh $c$ satuan sejajar sumbu-$Z$, sampai di titik $P(a, b, c)$.
 
-![alt text](blob:https://markdownviewer.pages.dev/3e30c144-3b5b-4706-8386-eaf46f14150f)
+<div align="center">
+<img src="" width="500">
+</div>
 Cara lain untuk menggambarkan posisi titik $P(a, b, c)$ adalah dengan membayangkan sebuah balok (parallelepiped persegi panjang) yang salah satu sudutnya berada di titik asal $O$ dengan tiga sisi terletak sepanjang ketiga sumbu koordinat. Panjang sisi balok pada sumbu-$X$ adalah $|a|$, pada sumbu-$Y$ adalah $|b|$, dan pada sumbu-$Z$ adalah $|c|$. Titik $P$ berada pada sudut balok yang berseberangan diagonal dengan titik $O$.
 
 > CONTOH SOAL:
@@ -589,7 +600,9 @@ Karena komponen-komponennya identik, maka $\vec{AB} = \vec{CD}$. Kedua vektor te
 ## 3.2 Vektor dalam Sistem Koordinat
 Apabila titik awal suatu vektor diletakkan di titik asal $O(0, 0, 0)$ dan titik akhirnya berada di titik $P(x, y, z)$, maka vektor tersebut dinamakan **vektor posisi** titik $P$, dilambangkan dengan $\vec{OP}$ atau $\mathbf{r}$. Dalam hal ini, vektor posisi tersebut secara unik diwakili oleh tripel terurut $(x, y, z)$, dan koordinat titik $P$ pada sistem Kartesius sama dengan komponen-komponen vektor posisinya.
 
-
+<div align="center">
+<img src="https://i.ibb.co.com/QF5qrsrZ/3-D-vektor.jpg" width="500">
+</div>
 
 Setiap vektor di ruang tiga dimensi dapat dinyatakan sebagai tripel terurut komponen-komponennya. Misalkan vektor $\mathbf{v}$ memiliki titik awal $A(a_1, a_2, a_3)$ dan titik akhir $B(b_1, b_2, b_3)$, maka komponen-komponen vektor $\mathbf{v}$ adalah:
 
@@ -1164,7 +1177,8 @@ Sebuah bidang ditentukan oleh titik $P_0(x_0, y_0, z_0)$ pada bidang dan vektor 
 # BAB 4: GARIS DALAM RUANG DIMENSI TIGA (3D)
 
 ## 4.1 KONSEP DASAR VEKTOR ARAH DALAM RUANG 3D
-Pada geometri analitik bidang atau ruang dimensi dua ($R^2$), kemiringan atau inklinasi suatu garis lurus dapat dinyatakan secara sederhana menggunakan satu nilai skalar yang disebut gradien ($m$). Nilai gradien ini diperoleh dari rasio perubahan nilai vertikal terhadap perubahan nilai horizontal ($\Delta y / \Delta x$). Namun, karakteristik geometris ini berubah secara drastis ketika kita beralih ke ruang dimensi tiga ($R^3$). Di dalam ruang 3D, sebuah garis memiliki kebebasan untuk condong atau miring ke berbagai arah ruang yang tak terbatas jumlahnya. Oleh karena itu, konsep kemiringan berbasis skalar tunggal kehilangan relevansi dan validitas matematisnya.
+Pada geometri analitik bidang atau ruang dimensi dua (R^2), 
+kemiringan atau inklinasi suatu garis lurus dapat dinyatakan secara sederhana menggunakan satu nilai skalar yang disebut gradien ($m$). Nilai gradien ini diperoleh dari rasio perubahan nilai vertikal terhadap perubahan nilai horizontal ($\Delta y / \Delta x$). Namun, karakteristik geometris ini berubah secara drastis ketika kita beralih ke ruang dimensi tiga ($R^3$). Di dalam ruang 3D, sebuah garis memiliki kebebasan untuk condong atau miring ke berbagai arah ruang yang tak terbatas jumlahnya. Oleh karena itu, konsep kemiringan berbasis skalar tunggal kehilangan relevansi dan validitas matematisnya.
 
 Untuk menentukan arah spesifik dari suatu garis lurus di dalam ruang dimensi tiga, kita memerlukan instrumen matematika berupa vektor. Arah suatu garis dalam ruang 3D ditentukan secara unik oleh sebuah vektor non-nol yang posisinya sejajar atau berimpit dengan garis tersebut. Vektor inilah yang disebut sebagai **Vektor Arah** ($\mathbf{v}$).
 
@@ -1383,7 +1397,8 @@ $$0 \leq t \leq 1$$
 ---
 
 ## 4.6 KLASIFIKASI HUBUNGAN GEOMETRIS ANTARA DUA BUAH GARIS
-Di dalam ruang dimensi dua ($R^2$), dua buah garis yang berbeda hanya memiliki dua kemungkinan hubungan posisi: jika tidak sejajar, kedua garis tersebut pasti akan berpotongan di suatu titik. Namun, di dalam ruang dimensi tiga ($R^3$), terdapat tiga kemungkinan hubungan posisi antara dua buah garis yang berbeda ($L_1$ dengan vektor arah $\mathbf{v}_1$ dan $L_2$ dengan vektor arah $\mathbf{v}_2$):
+Di dalam ruang dimensi dua (R^2), 
+dua buah garis yang berbeda hanya memiliki dua kemungkinan hubungan posisi: jika tidak sejajar, kedua garis tersebut pasti akan berpotongan di suatu titik. Namun, di dalam ruang dimensi tiga ($R^3$), terdapat tiga kemungkinan hubungan posisi antara dua buah garis yang berbeda ($L_1$ dengan vektor arah $\mathbf{v}_1$ dan $L_2$ dengan vektor arah $\mathbf{v}_2$):
 
 ### 4.6.1 Garis-Garis Sejajar (*Parallel Lines*)
 Dua buah garis dikatakan sejajar jika dan hanya jika vektor arah dari kedua garis tersebut memiliki orientasi yang sama atau berlawanan arah, yang ditandai dengan sifat kelipatan skalar:
@@ -1478,13 +1493,282 @@ $$d = \frac{|\overrightarrow{P_0S} \times \mathbf{v}|}{|\mathbf{v}|}$$
 > 
 >   $$d = \frac{\sqrt{21}}{\sqrt{14}} = \sqrt{\frac{3}{2}} = \frac{1}{2}\sqrt{6} \approx 1.22$$
 
+# BAB V: SOAL-SOAL LATIHAN
+---
+## 5.1 Latihan Sistem Koordinat dalam Ruang
+
+Soal-soal berikut menguji pemahaman tentang sistem koordinat Kartesius tiga dimensi, oktan, profesi titik, serta konversi antar sistem koordinat (Kartesius, silinder, dan bola).
+
+1. Gambarkan titik-titik berikut pada sistem koordinat tiga dimensi dan tentukan oktan tempat masing-masing titik berada:
+   - a) $A(3, 2, 5)$
+   - b) $B(-4, 1, 6)$
+   - c) $C(2, -3, 4)$
+   - d) $D(5, 4, -2)$
+   - e) $E(-3, -2, 1)$
+   - f) $F(-1, 4, -3)$
+   - g) $G(2, -5, -4)$
+   - h) $H(-3, -1, -2)$
+
+2. Sebutkan koordinat proyeksi titik $P(4, -5, 7)$ pada:
+   - a) bidang $XOY$
+   - b) bidang $XOZ$
+   - c) bidang $YOZ$
+   - d) sumbu $X$
+   - e) sumbu $Y$
+   - f) sumbu $Z$
+   - g) titik asal $O(0, 0, 0)$
+
+3. Tentukan koordinat cermin (bayangan) titik $T(2, -3, 4)$ terhadap:
+   - a) bidang $XOY$
+   - b) bidang $XOZ$
+   - c) bidang $YOZ$
+   - d) sumbu $X$
+   - e) sumbu $Y$
+   - f) sumbu $Z$
+   - g) titik asal $O$
+
+4. Diberikan titik $P$ dengan koordinat Kartesius $(3, 4, 5)$. Tentukan koordinat silinder dan koordinat bola dari titik tersebut.
+
+5. Sebuah titik memiliki koordinat silinder $(4, \pi/3, -2)$. Tentukan koordinat Kartesius dan koordinat bolanya.
+
+6. Sebuah titik memiliki koordinat bola $(6, \pi/4, \pi/3)$. Tentukan koordinat Kartesius dan koordinat silindernya.
+
+7. Tentukan koordinat titik yang membagi ruas garis dari $A(1, -2, 3)$ ke $B(7, 4, -9)$ dengan perbandingan $2 : 1$.
+
+8. Diberikan tiga titik $A(2, 1, 3)$, $B(5, 4, 6)$, dan $C(8, 7, 9)$. Tunjukkan bahwa ketiga titik tersebut segaris (kolinear).
+
+9. Diketahui $A(1, 0, 0)$, $B(0, 1, 0)$, $C(0, 0, 1)$, dan $D(1, 1, 1)$. Tunjukkan bahwa $ABCD$ adalah tetrahedron beraturan dan tentukan koordinat titik berat (sentroid) keempat titik tersebut.
+
+10. Sebuah titik $P(x, y, z)$ berada pada bidang yang melalui titik asal dengan persamaan $x + y + z = 0$. Tunjukkan bahwa lokus titik tersebut adalah suatu bidang dan deskripsikan posisinya.
+
+11. Tentukan persamaan lokus titik yang berjarak sama dari $A(2, 3, -4)$ dan $B(-4, 1, 2)$.
+
+12. Konversikan koordinat silinder berikut menjadi koordinat Kartesius dan bola:
+    - a) $(3, \pi/2, 4)$
+    - b) $(5, 0, -3)$
+    - c) $(2, \pi, 6)$
+
+---
+
+## 5.2 Latihan Jarak dalam Ruang
+
+Soal-soal berikut menguji kemampuan menghitung jarak antar dua titik, jarak titik ke garis, jarak titik ke bidang, jarak antara dua garis sejajar maupun bersilangan, serta jarak antara dua bidang sejajar.
+
+1. Tentukan jarak antara setiap pasangan titik berikut:
+   - a) $P(2, 3, 4)$ dan $Q(5, 7, 8)$
+   - b) $A(-1, 2, -3)$ dan $B(4, -5, 6)$
+   - c) $M(0, 0, 0)$ dan $N(3, 4, 12)$
+   - d) $R(1, 1, 1)$ dan $S(-2, -2, -2)$
+
+2. Diketahui titik $A(2, 3, -1)$, $B(5, 7, 3)$, dan $C(8, 11, 7)$. Tunjukkan bahwa ketiga titik tersebut segaris dan tentukan perbandingan jarak $AB : BC$.
+
+3. Tentukan titik pada sumbu $X$ yang berjarak $7$ satuan dari titik $P(2, 3, 6)$.
+
+4. Tentukan titik pada bidang $XOY$ yang berjarak sama dari $A(1, -1, 2)$, $B(2, 1, 3)$, dan $C(3, 2, 1)$.
+
+5. Diketahui segitiga dengan titik-titik sudut $A(1, 2, 3)$, $B(4, 5, 6)$, dan $C(7, 8, 6)$. Tentukan:
+   - a) panjang ketiga sisinya
+   - b) jenis segitiga tersebut (sama sisi, sama kaki, atau siku-siku)
+   - c) keliling dan luas segitiga
+
+6. Tentukan kosinus arah dan sudut arah dari vektor yang berarah dari $A(2, -1, 3)$ ke $B(5, 2, -1)$.
+
+7. Sudut-sudut arah suatu garis adalah $\alpha = 60^\circ$, $\beta = 45^\circ$. Tentukan sudut arah $\gamma$ yang mungkin.
+
+8. Tentukan jarak dari titik $P(1, 2, 3)$ ke garis yang melalui titik $A(0, 0, 0)$ dan $B(1, 1, 1)$.
+
+9. Tentukan jarak dari titik $P(2, 3, -1)$ ke bidang $2x - y + 2z + 3 = 0$.
+
+10. Tentukan jarak antara dua bidang sejajar berikut:
+    - a) $x + 2y - 2z + 9 = 0$ dan $x + 2y - 2z - 6 = 0$
+    - b) $3x - 4y + 12z - 13 = 0$ dan $3x - 4y + 12z + 13 = 0$
+
+11. Tentukan jarak terpendek (jarak minimum) antara dua garis bersilangan berikut:
+    - $L_1: \frac{x-1}{2} = \frac{y-2}{3} = \frac{z-3}{4}$
+    - $L_2: \frac{x-2}{3} = \frac{y-4}{4} = \frac{z-5}{5}$
+
+12. Diketahui dua garis sejajar $L_1$ dan $L_2$ dengan vektor arah $(1, 2, 2)$. $L_1$ melalui titik $A(1, 0, 1)$ dan $L_2$ melalui titik $B(4, -1, 3)$. Tentukan jarak antara kedua garis tersebut.
+
+13. Tentukan sudut antara dua garis berikut:
+    - $L_1: \frac{x-1}{2} = \frac{y+1}{-1} = \frac{z-2}{2}$
+    - $L_2: \frac{x+2}{1} = \frac{y-3}{2} = \frac{z+1}{-2}$
+
+14. Tentukan sudut antara dua bidang berikut:
+    - $\pi_1: 2x - y + 2z - 3 = 0$ dan $\pi_2: x + 2y - 2z + 5 = 0$
+
+---
+
+## 5.3 Latihan Vektor dalam Ruang
+
+Soal-soal berikut menguji pemahaman tentang operasi vektor, hasil kali skalar (*dot product*), hasil kali vektor (*cross product*), hasil kali tripel, serta aplikasi vektor dalam geometri dan fisika.
+
+1. Diberikan vektor-vektor $\mathbf{a} = (2, -1, 3)$, $\mathbf{b} = (1, 4, -2)$, dan $\mathbf{c} = (-3, 2, 1)$. Hitung:
+   - a) $\mathbf{a} + \mathbf{b}$
+   - b) $\mathbf{a} - \mathbf{c}$
+   - c) $2\mathbf{a} + 3\mathbf{b}$
+   - d) $3\mathbf{a} - 2\mathbf{b} + \mathbf{c}$
+   - e) $|\mathbf{a}|$
+   - f) $|\mathbf{b} + \mathbf{c}|$
+   - g) vektor satuan dari $\mathbf{a}$
+   - h) vektor satuan dari $(\mathbf{a} + \mathbf{b})$
+
+2. Diketahui titik $A(2, 3, -1)$, $B(5, 1, 2)$, dan $C(4, -2, 3)$. Tentukan vektor:
+   - a) $\vec{AB}$
+   - b) $\vec{BC}$
+   - c) $\vec{CA}$
+   - d) $\vec{AB} + \vec{BC} + \vec{CA}$
+   - e) Apa kesimpulan Anda dari hasil (d)?
+
+3. Tunjukkan bahwa keempat titik $A(1, 2, 3)$, $B(4, 5, 6)$, $C(7, 8, 9)$, dan $D(2, 4, 6)$ terletak pada satu bidang (*koplanar*) menggunakan hasil kali tripel skalar.
+
+4. Diberikan $\mathbf{a} = (3, -1, 2)$ dan $\mathbf{b} = (1, 2, -3)$. Hitung:
+   - a) $\mathbf{a} \cdot \mathbf{b}$
+   - b) sudut antara $\mathbf{a}$ dan $\mathbf{b}$
+   - c) proyeksi skalar $\mathbf{a}$ pada $\mathbf{b}$
+   - d) proyeksi vektor $\mathbf{a}$ pada $\mathbf{b}$
+
+5. Tentukan nilai $k$ sehingga vektor $\mathbf{a} = (k, 2, -1)$ tegak lurus terhadap vektor $\mathbf{b} = (3, k, 2)$.
+
+6. Buktikan bahwa segitiga dengan titik-titik sudut $P(1, 2, 3)$, $Q(4, 5, 6)$, $R(7, 2, 9)$ adalah segitiga siku-siku menggunakan hasil kali skalar.
+
+7. Diberikan $\mathbf{a} = (1, 2, 3)$ dan $\mathbf{b} = (4, 5, 6)$. Hitung:
+   - a) $\mathbf{a} \times \mathbf{b}$
+   - b) $\mathbf{b} \times \mathbf{a}$
+   - c) bandingkan hasil (a) dan (b), apa kesimpulan Anda?
+   - d) $|\mathbf{a} \times \mathbf{b}|$
+   - e) vektor satuan yang tegak lurus pada $\mathbf{a}$ dan $\mathbf{b}$
+
+8. Tentukan luas segitiga dengan titik-titik sudut $A(1, 1, 1)$, $B(2, 3, 4)$, dan $C(5, 5, 6)$ menggunakan hasil kali vektor.
+
+9. Tentukan luas jajar genjang yang memiliki sisi-sisi vektor $\mathbf{a} = (3, -1, 2)$ dan $\mathbf{b} = (1, 4, -2)$.
+
+10. Hitung hasil kali tripel skalar $[\mathbf{a}\ \mathbf{b}\ \mathbf{c}]$ untuk:
+    - a) $\mathbf{a} = (1, 2, 3)$, $\mathbf{b} = (4, 5, 6)$, $\mathbf{c} = (7, 8, 9)$
+    - b) $\mathbf{a} = (2, -1, 3)$, $\mathbf{b} = (1, 0, 2)$, $\mathbf{c} = (3, 1, -1)$
+    - Apa makna geometris dari hasil (a)?
+
+11. Tentukan volume paralelepipedum dengan tiga sisi yang berdekatan diwakili oleh vektor $\mathbf{a} = (2, 3, 4)$, $\mathbf{b} = (1, 0, 2)$, dan $\mathbf{c} = (-1, 2, 3)$.
+
+12. Tentukan volume tetrahedron dengan titik-titik sudut $A(1, 1, 1)$, $B(2, 3, 4)$, $C(4, 1, 2)$, dan $D(3, 2, 5)$.
+
+13. Buktikan identitas vektor berikut:
+    $$\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = (\mathbf{a} \cdot \mathbf{c})\mathbf{b} - (\mathbf{a} \cdot \mathbf{b})\mathbf{c}$$
+    dengan menggunakan $\mathbf{a} = (1, 2, 0)$, $\mathbf{b} = (0, 1, 1)$, $\mathbf{c} = (1, 0, 2)$.
+
+14. Sebuah gaya $\mathbf{F} = (3, -2, 4)\text{ N}$ bekerja pada sebuah benda di titik $P(1, 2, 1)\text{ m}$, dan benda berpindah ke titik $Q(4, 3, 5)\text{ m}$. Hitung usaha yang dilakukan oleh gaya tersebut.
+
+15. Sebuah gaya $\mathbf{F} = (2, 3, -1)\text{ N}$ bekerja pada titik $P(1, 4, 2)\text{ m}$. Hitung momen gaya terhadap:
+    - a) titik asal $O(0, 0, 0)$
+    - b) titik $A(2, 1, 3)$
+
+16. Diberikan tiga titik $A(1, 0, 0)$, $B(0, 1, 0)$, dan $C(0, 0, 1)$. Tentukan:
+    - a) vektor normal terhadap bidang $ABC$
+    - b) persamaan bidang yang melalui $A, B, C$
+    - c) luas segitiga $ABC$
+    - d) jarak titik asal $O$ ke bidang $ABC$
+
+---
+
+## 5.4 Soal-Soal Campuran dan Pemecahan Masalah
+
+Soal-soal pada bagian ini menggabungkan beberapa konsep sekaligus, sehingga memerlukan analisis yang lebih mendalam. Beberapa soal bersifat aplikatif dengan latar belakang masalah nyata, sementara yang lain bersifat pembuktian (*proof*) atau eksplorasi sifat geometris.
+
+1. Diberikan empat titik $A(1, 2, 3)$, $B(4, 5, 6)$, $C(7, 8, 6)$, dan $D(2, 4, 6)$. Tentukan:
+   - a) apakah keempat titik tersebut koplanar?
+   - b) jika ya, tentukan persamaan bidang yang memuat keempatnya
+   - c) jika tidak, hitung volume tetrahedron $ABCD$
+
+2. Diketahui sebuah kubus dengan rusuk $4$ satuan, dengan satu titik sudut di $O(0, 0, 0)$ dan rusuk-rusuknya sejajar dengan sumbu-sumbu koordinat di oktan pertama. Tentukan:
+   - a) koordinat semua titik sudut kubus
+   - b) panjang diagonal ruang
+   - c) sudut antara diagonal ruang dan salah satu rusuk
+   - d) sudut antara dua diagonal ruang yang berbeda
+   - e) jarak dari pusat kubus ke salah satu titik sudut
+
+3. Sebuah persegi panjang $ABCD$ di ruang memiliki titik-titik sudut $A(1, 0, 0)$, $B(4, 3, 0)$, $C(c_1, c_2, c_3)$, dan $D(2, -1, h)$. Tentukan koordinat $C$ dan nilai $h$, kemudian hitung luas persegi panjang tersebut.
+
+4. Buktikan bahwa pada setiap segitiga dengan titik-titik sudut $A, B, C$, jumlah vektor $\vec{AB} + \vec{BC} + \vec{CA}$ selalu nol.
+
+5. Diberikan segitiga $ABC$ dengan $A(0, 0, 0)$, $B(4, 0, 0)$, $C(0, 3, 0)$. Tentukan:
+   - a) koordinat titik berat (sentroid) $G$
+   - b) koordinat titik tengah masing-masing sisi
+   - c) buktikan bahwa ketiga garis berat (*median*) berpotongan di $G$
+   - d) buktikan bahwa $G$ membagi setiap garis berat dengan perbandingan $2 : 1$ dari titik sudut
+
+6. Sebuah pesawat terbang melintas di langit. Pada saat $t_1$, posisi pesawat adalah $P_1(2, 3, 5)\text{ km}$, dan pada saat $t_2$ posisinya $P_2(8, 11, 9)\text{ km}$, dengan selisih waktu $t_2 - t_1 = 1\text{ menit}$. Tentukan:
+   - a) vektor perpindahan pesawat
+   - b) jarak yang ditempuh
+   - c) vektor kecepatan rata-rata (dalam $\text{km/menit}$ dan $\text{km/jam}$)
+   - d) laju (besar kecepatan) pesawat dalam $\text{km/jam}$
+   - e) sudut arah lintasan terhadap sumbu-sumbu koordinat
+
+7. Sebuah balok memiliki panjang rusuk-rusuk $3$ satuan, $4$ satuan, dan $12$ satuan, dengan rusuk-rusuk sejajar sumbu koordinat dan satu titik sudut di $O$. Tentukan:
+   - a) panjang diagonal ruang balok
+   - b) sudut antara diagonal ruang dan masing-masing sisi balok
+   - c) jika sebuah serangga merayap dari satu sudut ke sudut yang berseberangan diagonal melalui permukaan balok, tentukan lintasan terpendek yang mungkin
+
+8. Diberikan dua bidang $\pi_1: 2x - y + 2z - 3 = 0$ dan $\pi_2: x + 2y - 2z + 5 = 0$. Tentukan:
+   - a) sudut antara kedua bidang
+   - b) vektor arah garis potong kedua bidang
+   - c) sebuah titik pada garis potong
+   - d) persamaan parameter dan persamaan simetris garis potong tersebut
+
+9. Tentukan persamaan bidang yang:
+   - a) melalui titik $P(1, 2, 3)$ dengan vektor normal $\mathbf{n} = (2, -1, 4)$
+   - b) melalui titik $A(1, 0, 1)$, $B(2, 1, -1)$, dan $C(0, 1, 2)$
+   - c) melalui titik $P(3, 1, -2)$ dan sejajar bidang $2x + y - 3z = 5$
+   - d) melalui garis $\frac{x-1}{2} = \frac{y+1}{3} = \frac{z-2}{-1}$ dan tegak lurus bidang $x + y + z = 1$
+
+10. Tentukan persamaan garis yang:
+    - a) melalui titik $P(1, 2, 3)$ dengan vektor arah $\mathbf{d} = (2, -1, 4)$
+    - b) melalui dua titik $A(1, 2, -1)$ dan $B(3, 5, 2)$
+    - c) melalui titik $P(2, 1, 3)$ dan tegak lurus terhadap bidang $2x - y + 3z = 7$
+    - d) merupakan garis potong dua bidang $x + y + z = 6$ dan $2x - y + z = 3$
+
+11. Dalam sebuah laboratorium fisika, sebuah partikel bermuatan bergerak dengan vektor kecepatan $\mathbf{v} = (3, 4, 0)\text{ m/s}$ dalam medan magnet $\mathbf{B} = (0, 0, 2)\text{ T}$. Gaya Lorentz pada partikel diberikan oleh $\mathbf{F} = q\mathbf{v} \times \mathbf{B}$, dengan $q = 1.6 \times 10^{-19}\text{ C}$. Tentukan vektor gaya Lorentz dan arahnya.
+
+12. Diberikan empat titik tak segaris $P, Q, R, S$ di ruang. Buktikan secara vektor bahwa garis-garis yang menghubungkan titik-titik tengah dari sisi-sisi yang berhadapan dari segiempat $PQRS saling berpotongan dan saling membagi dua sama panjang. *(Petunjuk: gunakan vektor posisi dan tunjukkan bahwa titik tengah kedua garis berimpit.)*
+
+13. Buktikan bahwa diagonal-diagonal sebuah jajar genjang membagi sama panjang satu sama lain, dengan menggunakan vektor posisi titik-titik sudut.
+
+14. Sebuah segitiga $ABC$ mempunyai $A(2, 3, 1)$, $B(5, 6, 4)$, $C(8, 3, 7)$. Tentukan:
+    - a) koordinat titik berat $G$
+    - b) panjang ketiga garis berat
+    - c) luas segitiga $ABC$
+    - d) panjang ketiga garis tinggi
+    - e) jari-jari lingkaran luar (*circumradius*) segitiga
+
+15. Sebuah benda bermassa $5\text{ kg}$ berpindah dari titik $A(1, 2, 3)\text{ m}$ ke titik $B(7, 8, 9)\text{ m}$ di bawah pengaruh gaya konstan $\mathbf{F} = (4, -2, 6)\text{ N}$. Tentukan:
+    - a) vektor perpindahan
+    - b) besar perpindahan
+    - c) usaha yang dilakukan gaya
+    - d) sudut antara gaya dan perpindahan
+    - e) komponen gaya searah perpindahan
+
+16. Tentukan persamaan bola yang:
+    - a) berpusat di $C(2, -3, 4)$ dengan jari-jari $5$
+    - b) memiliki diameter dengan titik-titik ujung $A(1, 2, 3)$ dan $B(5, 6, 7)$
+    - c) berpusat di titik asal dan melalui titik $P(3, 4, 12)$
+
+17. Buktikan bahwa untuk sebarang dua vektor $\mathbf{a}$ dan $\mathbf{b}$ di ruang berlaku ketaksamaan Cauchy–Schwarz:
+    $$|\mathbf{a} \cdot \mathbf{b}| \le |\mathbf{a}| \cdot |\mathbf{b}|$$
+    dan ketaksamaan segitiga:
+    $$|\mathbf{a} + \mathbf{b}| \le |\mathbf{a}| + |\mathbf{b}|$$
+    Tentukan kondisi kapan kesamaan terjadi pada masing-masing ketaksamaan.
+
+18. Tiga gaya $\mathbf{F}_1 = (2, 3, -1)\text{ N}$, $\mathbf{F}_2 = (-1, 4, 2)\text{ N}$, dan $\mathbf{F}_3 = (3, -2, 5)\text{ N}$ bekerja pada sebuah titik. Tentukan:
+    - a) gaya resultan
+    - b) besar gaya resultan
+    - c) sudut arah gaya resultan terhadap masing-masing sumbu koordinat
+    - d) gaya keempat $\mathbf{F}_4$ yang harus ditambahkan agar sistem berada dalam kesetimbangan
+
 ---
 
 ## DAFTAR PUSTAKA ACUAN DAN HALAMAN SUMBER
 
 * **Riddle, Douglas F.** (1996). *Analytic Geometry, Sixth Edition*. Boston: PWS Publishing Company.
-    * *Rujukan Sub-bab 4.1 & 4.2 (Transformasi Koordinat, Teori Vektor Arah, dan Penurunan Komponen Vektor Ruang)* $\rightarrow$ Diadopsi dan disintesis secara analitis dari Bab 6 (*Transformation of Coordinates and Vectors in Space*), **Halaman 195–201**.
+   
 * **Stewart, James.** (2012). *Calculus: Early Transcendentals, Seventh Edition (Multivariable Volume)*. Belmont: Brooks/Cole Cengage Learning.
-    * *Rujukan Sub-bab 4.3, 4.4, & 4.6 (Sistem Persamaan Parametrik, Rasio Kesamaan Simetris, dan Teorema Klasifikasi Garis Bersilangan)* $\rightarrow$ Diadopsi secara akurat dari Chapter 12 (*Vectors and the Geometry of Space*), Section 12.5 (*Lines and Planes in Space*), **Halaman 559–561**.
+   
 * **Thomas Jr., George B., Weir, Maurice D., & Hass, Joel.** (2014). *Thomas' Calculus: Early Transcendentals, Thirteenth Edition*. Boston: Pearson Education, Inc.
-    * *Rujukan Sub-bab 4.5 & 4.7 (Formulasi Batasan Parameter Ruas Garis Tertentu dan Penurunan Jarak Berbasis Operasi Cross-Product Vektor)* $\rightarrow$ Diadopsi secara ketat dari Chapter 12 (*Vectors and the Geometry of Space*), Section 12.5, **Halaman 732–735**.
+    
