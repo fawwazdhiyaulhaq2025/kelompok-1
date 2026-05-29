@@ -229,7 +229,8 @@ b) $ρ =$ $\sqrt{(r² + z²)}$ $= \sqrt{(9 + 16)}$ $=$ $\sqrt{25}$ $=$ $5$.
 Jarak antara dua titik dalam ruang adalah perluasan dari jarak pada bidang. Fondasi utamanya tetap menggunakan Teorema Phytagoras, namun diterapkan pada tiga sumbu koordinat yang saling tegak lurus. Dalam geometri ruang sebuah titik tidak lagi diwakili oleh $(x, y)$, tetapi diwakili oleh triple koordinat $(x, y,z)$. Dengan adanya penambahan dimensi ketiga (sumbu $z$) memungkinkan kita merepresentasikan posisi titik dalam ruang hampa, mencakup panjang, lebar, dan tinggi.
 
 A. a. Rumus Jarak dua titik (2D)
-Jika diketahui titik $A(x_1, y_2)$ dan $B(x_2, y_2)$, maka jarak AB dirumuskan sebagai:
+
+jarak antara dua titik dalam dua dimensi adalah metode untuk menghitung jarak lurus antara dua titik yang terletak dalam bidang datar. Rumus ini sangat penting dalam matematika dan digunakan dalam berbagai aplikasi seperti navigasi, pemodelan grafik, dan analisis pola geometri.Rumus jarak antara dua titik dalam dua dimensi digunakan untuk menghitung jarak antara dua titik dalam ruang dua dimensi.Jika diketahui titik $A(x_1, y_2)$ dan $B(x_2, y_2)$, maka jarak $AB$ dirumuskan sebagai:
 
 $d=\sqrt{(x^2-x^1)^2+(y_2-y_1)^2}$
 
@@ -238,7 +239,7 @@ Keterangan:
 - $y_2 - y_1$ = selisih koordinat $y$
 
 > CONTOH SOAL:
->Tentukan jarak titik $A(2, 3)$ dan B$(7, 15)$
+>Tentukan jarak titik $A(2, 3)$ dan $B(7, 15)$
 Penyelesaian: 
 Diketahui: 
 $x_1=2$
@@ -254,15 +255,16 @@ $d=13$
 jadi, jarak antara titik adalah $13$.
 
    b. Jarak dua titik (3D)
-Pada ruang tiga dimensi, titk dinyatakan sebagai $(x, y, z)$. Konsep jarak diperluas dengan menambahkan sumbu $z$.
 
+Pada ruang tiga dimensi, titk dinyatakan sebagai $(x, y, z)$. Konsep jarak diperluas dengan menambahkan sumbu $z$.
 * Rumus jarak dua titik (3D)
+
 Jika diketahui titik $A(x_1, y_2, z_3)$ dan $B(x_1, y_2, z_3)$, maka jarak $d$ diantara keduanya adalah:
 
 $d = \sqrt{(x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2}$
 
 > CONTOH SOAL:
-> Tentukan jarak titik A $(1, 2, 3)$ dan B $(4, 6, 15)$
+> Tentukan jarak titik $A(1, 2, 3)$ dan $B(4, 6, 15)$
 Penyelesaian:
 Diketahui: 
 $x_1=1$, 
@@ -280,219 +282,260 @@ $d = 13$
 jadi, jarak titk  antara $A$ dan $B$ adalah $13$.
 
 B. a. Jarak titk ke garis (2D)
+
 Jarak titik ke garis adalah panjang ruas garis terpendek dari titk menuju garis, yaitu garis tegak lurus terhadap garis tersebut. 
 * Persamaan titik ke garis
+
 Garis biasa ditulis dengan persamaan $ax + by + c = 0$, dan untuk menghitung  jarak titik ke garis digunakan rumus:
 
-$d = \frac{|ax0 + by0 + c|}\sqrt{(a² + b²)}$
+$$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
 
-Contoh soal
-Tentukan jarak titik $P(2, 1)$ terhadap garis 
-
+> CONTOH SOAL:
+>Tentukan jarak titik $P(2, 1)$ terhadap garis
 $3x + 4y - 10 = 0$
-
 Penyelesaian:
 Diketahui:
 $A=3$, $B=4$, $C-10$
 $(x_1, y_1) = (2, 1)$
 substitusikan kedalam rumus:
-$d = \frac{|3(2) + 4(1) - 10|}\sqrt{(3² + 4²)}$
-$d = \frac{|6 + 4 - 10|}\sqrt{(9 + 16)}$
-$d = \frac{|0|}\sqrt{(25)}$
-$d = 0$
+$$d = \frac{|3(2) + 4(1) - 10|}{\sqrt{3^2 + 4^2}}$$
+$$d = \frac{|6 + 4 - 10|}{\sqrt{8 + 16}}$$
+$$d = \frac{|0|}{\sqrt{25}}$$
+$$d = 0$$
 jadi, jarak titik $P(2, 1)$ terhadap garis $3x + 4y - 10 = 0$ adalah $0$
 
   b. Jarak titik ke garis (3D)
+
 Dalam ruang tiga dimensi, garis biasanya dinyatakan dalam bentuk parametrik atau vektor. Dalam ruang tiga dimensi garis biasanya ditulis dalam bentuk: 
 
-$\frac{x−x_1}​​{a} = \frac{y−y_1​​}{b} = \frac{z−z_1}{c}$​​
+$$\frac{x-x_1}{a} = \frac{y-y_1}{b} = \frac{z-z_1}{c}$$​​
 
 * Rumus jarak titik ke garis (3D)
-Jika titk $A$ berada di garis $A(x_1, y_2, z_3)$ dan $v$ adalah vektor arah garis $v=(a,b,c)$, maka jarak titik $P$ ke garis dapat dicari menggunakan:
-$d=\frac{∣AP×v∣}{​∣v∣}$
+
+Jika titk $A$ berada di garis $A(x_1, y_2, z_3)$ dan $v$ adalah vektor arah garis $\vec{v}=(a,b,c)$, maka jarak titik $P$ ke garis dapat dicari menggunakan:
+
+$$d=\frac{|\overrightarrow{AP}\times \vec{v}|}{|\vec{v}|}$$
 
 > CONTOH SOAL:
 > Tentukan jarak titik P(1, 2, 3) ke garis
-
-$\frac{x}{1}​=\frac{y​}{2}=\frac{z}​{2}$
-
-Penyelesaian:
-Diketahui:
-$v=(1,2,2)$
-$A(0,0,0)$
-$AP=(1,2,3)$
-maka:
-AP×v=i j k
-     1 2 3
-     1 2 2 
-    =(−2,1,0)
-substitusikan ke dalam rumus:
-$d=\frac{∣AP×v∣}​{∣v∣}$
-$d=\frac\sqrt({(−2)^2+1^2+0^2}x\sqrt1^2+2^2+2^2}{1^2+2^2+2^2})$
-$d=\sqrt{5}x3$
-
+>
+> $\frac{x}{1}​=\frac{y​}{2}=\frac{z}​{2}$
+>
+> Penyelesaian:
+> Diketahui:
+>
+> $$\vec{v} = \begin{pmatrix} 1 \\ 2 \\ 2 \end{pmatrix}$$
+>
+> $A(0,0,0)$
+> $\overrightarrow{AP}=(1,2,3)$
+> maka:
+>
+> $$\overrightarrow{AP}\times \vec{v}$$
+> $$\begin{vmatrix}
+> i & j & k \\
+> 1 & 2 & 3 \\
+> 1 & 2 & 2
+> \end{vmatrix}$$
+> =(−2,1,0)
+> substitusikan ke dalam rumus:
+> $$d=\frac{|\overrightarrow{AP}\times \vec{v}|}{|\vec{v}|}$$
+> $$d=\frac{\sqrt{(-2)^2+1^2+0^2}\times \sqrt{1^2+2^2+2^2}}{\sqrt{1^2+2^2+2^2}}$$
+> $$d=\frac{\sqrt5}{3}$$
 
 C. Jarak titik ke bidang (3D)
+
+Jarak titik ke bidang sama dengan panjang ruas garis terpendek yang menghubungkan titik dengan sebuah titik pada bidang. Di mana titik pada bidang merupakan titik hasil proyeksi dari titik di luar bidang tadi. Sebagai contoh, jarak titik ke A pada bidang α adalah panjang ruas garis AP. Di mana P adalah proyeksi titik A pada bidang α.
+Misal, diketahui sebuah titik A dan bidang α. Titik A tidak terletak pada bidang α (titik A terletak di luar bidang). Proyeksi titik A pada bidang α adalah titik P. Jarak titik ke bidang sama dengan panjang ruas garis AP.
 Bidang dalam ruang dinyatakan dalam bentuk $ax + by + cz + d = 0$ untuk titik $P(x_1, y_1, z_1)$.
 * Rumus untuk jarak titik ke bidang
+
 Jika titik $P(x_1,y_1,z_1) dan bidang $ax+by+cz+d=0$, maka jaraknya adalah:
 
-$d = \frac{|ax1 + by1 + cz1 + d|}\sqrt{(a²+b²+c²)}$
+$$d =\frac{|ax_1 + by_1 + cz_1 + d|}{\sqrt{a^2+b^2+c^2}}$$
 
 > CONTOH SOAL:
-Tentukan jarak titik $P(1,2,3)$ terhadap bidang:
-
-$2x−y+2z−5=0$
-
-Penyelesaian:
-$d = \frac{|2(1) + 1(2) + 2(3) + 5|}\sqrt{(2²-1²+2²)}$
-$d = \frac{|2 - 2 + 6 - 5|}\sqrt{(4+1+4)}$
-$d = \frac{1}{3}$
+> Tentukan jarak titik $P(1,2,3)$ terhadap bidang:
+>
+> $$2x-y+2z-5=0$$
+> 
+> Penyelesaian:
+> $$d=\frac{|2(1)-1(2)+2(3)-5|}{\sqrt{2^2+(-1)^2+2^2}}$$
+> $$d=\frac{|2-2+6-5|}{\sqrt{4+1+4}}$$
+> $$d=\frac{1}{3}$$
 
 D. Jarak dua garis 
 * Sejajar dalam ruang
+Garis sejajar adalah suatu kedudukan dua garis pada bidang datar yang tidak mempunyai titik potong walaupun kedua garis diperpanjang. Secara geometri kesejajaran garis tidak akan pernah bertemu satu dengan lainnya karena mempunyai kemiringan (gradien) yang sama. Garis-garis sejajar tidak harus sama panjang. Jarak antara garis $g$ dan garis $l$ yang sejajar adalah panjang ruas garis $AA′$, dimana $A$ adalah sembarang titik pada garis $g$ dan $A′$ merupakan proyeksi titik $A$ pada garis $l$.
 Dua garis sejajar memiliki vektor arah yang sama atau kelipatan satu sama lain.
 
-Jika dua garis sejajar:
+Contoh:
 
-
-> CONTOH SOAL:
-
+Diketahui kubus ABCD.EFGH dengan panjang rusuk 6 cm. Beberapa jarak dua garis sejajar yang dapat kita hitung tanpa perhitungan yang sulit antara lain:
+-  Jarak garis AD dan BC adalah 6 cm.
+- Jarak garis AE dan CG adalah 6 cm.
+- Jarak garis EH dan BC adalah 6√2 cm.
+- Jarak garis EG dan AC adalah 6 cm.
+- Jarak garis AQ dan PG adalah $$\frac{1}{3}$$⋅6√3=2√3 cm.
 
 * Bersilangan (Skew Lines)
-Garis bersilangan adalah garis yang tidak sejajar dan tidak berpotongan. 
-	​
-Formula rumus:
 
+Garis bersilangan adalah garis yang digambar pada dimensi dua seolah-olah berpotongan, sedangkan jika dilihat pada dimensi tiga garis tersebut tidak berpotongan. Garis bersilangan adalah garis yang tidak sejajar dan tidak berpotongan. 
+Secara teori untuk menghitung jarak antara dua garis bersilangan, langkah-langkah untuk menghitungnya dapat kita tuliskan seperti berikut:
+Misalkan garis $g$ dan garis $l$ bersilangan
+- Kita buat beberapa garis bantu sehingga diperoleh bidang yang memuat garis $l$ dan sejajar garis $g$ atau sebaliknya, misal kita sebut dengan bidang $α$.
+- Selanjutnya kita ambil sembarang titik $A$ pada garis $g$ lalu kita proyeksikan titik $A$ ke bidang $α$, misal kita sebut dengan titik $A′$.
 
-> CONTOH SOAL:
+- Jarak titik $A$ dan titik $A′$ merupakan jarak garis $g$ dengan garis $l$ yang bersilangan.
 
 
 LATIHAN SOAL 
 1. Berapakah jarak antara titik $P(2,3)$ dan $Q(5,7)$?
+
 a. $4$ satuan
 b. $5$ satuan
 c. $6$ satuan
 d. $7$ satuan
 
 2. Hitunglah jarak antara titik $A(-1,2)$ dan $B(3,-1)$.
+
 a. $4$ satuan
 b. $5$ satuan
 c. $√13$ satuan
 d. $√17$ satuan
 
 3. Tentukan jarak titik asal $(0,0)$ ke titik $D(6,8)$.
+
 a. $√50$ satuan
 b. $√72$ satuan
 c. $10$ satuan
 d. $14$ satuan
 
 4. Jika titik $E(x,5)$ dan $F(2,1)$ berjarak $5$ satuan, maka nilai $x$ yang mungkin adalah…
+
 a. $x = 2$ atau $x = 8$
 b. $x = 0$ atau $x = 4$
 c. $x = -1$ atau $x = 5$
 d. $x = 1$ atau $x = 3$
 
 5. Berapakah jarak antara titik $P(1,2,3)$ dan $Q(4,5,6)$ di ruang tiga dimensi?
-a. $√18$ satuan
-b. $√27$ satuan
-c. $3√3$ satuan
-d. $√45$ satuan
+
+a. $\sqrt{18}$ satuan
+b. $\sqrt{27}$ satuan
+c. $3\sqrt{3}$ satuan
+d. $\sqrt{45}$ satuan
 
 6. Jarak antara titik $(a, 0)$ dan $(0, b)$ adalah…
+
 a. $|a+b|$
 b. $|a-b|$
-c. $√(a²+b²)$
+c. $\sqrt{(a²+b²)}$
 d. $a+b$
 
 7. Titik $(k, 3)$ berjarak $5$ satuan dari titik $(1, 0)$. Nilai $k$ yang mungkin adalah…
+
 a. $k = 4$ atau $k = -2$
 b. $k = -3$ atau $k = 5$
 c. $k = 0$ atau $k = 2$
 d. $k = 1$ atau $k = 4$
 
 8. Jika titik $A(2,y)$ dan $B(5,-1)$ berjarak $3√2$ satuan, maka nilai $y$ yang mungkin adalah…
-y = 1 atau y = -3
-y = 0 atau y = -2
-y = 2 atau y = -4
-y = -1 atau y = -5
 
-9. Titik P(3,4) dan Q(x,y). Jika titik asal O(0,0) adalah titik tengah ruas garis PQ, berapakah jarak PQ?
-5 satuan
-√50 satuan
-√75 satuan
-10 satuan
+a. $y = 1$ atau $y = -3$
+b. $y = 0$ atau $y = -2$
+c. $y = 2$ atau $y = -4$
+d. $y = -1$ atau $y = -5$
 
-10. Sebuah segitiga ABC memiliki koordinat A(1,1), B(4,1), dan C(4,5). Berapakah panjang sisi AC?
-3 satuan
-4 satuan
-5 satuan
-√34 satuan
+9. Titik $P(3,4)$ dan $Q(x,y)$. Jika titik asal $O(0,0)$ adalah titik tengah ruas garis $PQ$, berapakah jarak $PQ$?
+a. $5$ satuan
+b. $\sqrt{50}$ satuan
+c. $\sqrt{75}$ satuan
+d. $10$ satuan
 
-11. Sebuah lingkaran berpusat di (2,3) dan melalui titik (5,7). Berapakah jari-jari lingkaran tersebut?
-3 satuan
-√13 satuan
-5 satuan
-√41 satuan
+10. Sebuah segitiga $ABC$ memiliki koordinat $A(1,1)$, $B(4,1)$, dan $C(4,5)$. Berapakah panjang sisi $AC$?
+
+a. $3$ satuan
+b. $4$ satuan
+c. $5$ satuan
+d. $\sqrt{34}$ satuan
+
+11. Sebuah lingkaran berpusat di $(2,3)$ dan melalui titik $(5,7)$. Berapakah jari-jari lingkaran tersebut?
+
+a. $3$ satuan
+b. $\sqrt{13}$ satuan
+c. $5$ satuan
+d. $\sqrt{41}$ satuan
 
 12. Manakah pernyataan yang paling tepat mengenai rumus jarak titik ke titik?
-Rumus jarak hanya berlaku untuk titik-titik pada sumbu koordinat.
-Rumus jarak titik ke titik hanya digunakan untuk mencari panjang sisi miring segitiga.
-Rumus jarak titik ke titik merupakan generalisasi dari Teorema Pythagoras.
-Rumus jarak hanya dapat digunakan pada bidang 2 dimensi.
 
-13. Jarak titik (a,b,c) ke titik asal (0,0,0) di ruang tiga dimensi adalah…
-|a+b+c|
-a+b+c
-√(a²+b²+c²)
-√(a²+b²)
+a. Rumus jarak hanya berlaku untuk titik-titik pada sumbu koordinat.
+b. Rumus jarak titik ke titik hanya digunakan untuk mencari panjang sisi miring segitiga.
+c. Rumus jarak titik ke titik merupakan generalisasi dari Teorema Pythagoras.
+d. Rumus jarak hanya dapat digunakan pada bidang 2 dimensi.
 
-14. Dua titik berada pada sumbu X, yaitu P(x1, 0) dan Q(x2, 0). Jarak PQ adalah…
-x1+x2
-x2-x1
-|x2-x1|
-√(x1²+x2²)
+13. Jarak titik $(a,b,c)$ ke titik asal $(0,0,0)$ di ruang tiga dimensi adalah…
 
-15. Dua titik berada pada bidang YZ, yaitu P(0, y1, z1) dan Q(0, y2, z2). Jarak PQ adalah…
-√((y1-z1)² + (y2-z2)²)
-√((y2-y1)²)
-√((y2-y1)² + (z2-z1)²)
-|y2-y1| + |z2-z1|
+a. $|a+b+c|$
+b. $a+b+c$
+c. $\sqrt{(a²+b²+c²)}$
+d. $\sqrt{(a²+b²)}$
 
-16. Titik A(2,3) dan B(5,k). Jika jarak AB adalah 3 satuan, maka nilai k adalah…
-k = 0
-k = 3
-k = 6
-k = 9
+14. Dua titik berada pada sumbu $X$, yaitu $P(x_1, 0)$ dan $Q(x_2, 0)$. Jarak $PQ$ adalah…
 
-17. Jika (x-1)² + (y-2)² = 25, maka ini berarti titik (x,y) berjarak berapa satuan dari titik (1,2)?
-√5 satuan
-√25 satuan
-5 satuan
-25 satuan
+a. $x_1+x_2$
+b. $x_2-x_1$
+c. $|x_2-x_1|$
+d. $\sqrt{(x_1²+x_2²)}$
 
-18. Rumus jarak antara dua titik (x1,y1) dan (x2,y2) adalah…
-|x2-x1| + |y2-y1|
-(x2-x1)² + (y2-y1)²
-√((x2-x1)² + (y2-y1)²)
-√((x2+x1)² + (y2+y1)²)
+15. Dua titik berada pada bidang $YZ$, yaitu $P(0, y_1, z_1)$ dan $Q(0, y_2, z_2)$. Jarak $PQ$ adalah…
 
-19. Jika titik A(1, -2), B(1, 3), dan C(k, 0) membentuk segitiga sama kaki dengan panjang AB = BC, maka nilai k yang mungkin adalah…
-k = 1 atau k = -1
-k = 2 atau k = -2
-k = 5 atau k = -3
-k = 0 atau k = 4
+a. $\sqrt{(y1-z1)² + (y2-z_2)²}$
+b. $\sqrt{(y_2-y_1)²}$
+c. $\sqrt{(y_2-y_1)² + (z_2-z_1)²}$
+d. $|y_2-y_1| + |z_2-z_1|$
+
+16. Titik $A(2,3)$ dan $B(5,k)$. Jika jarak $AB$ adalah $3$ satuan, maka nilai $k$ adalah…
+
+a. $k = 0$
+b. $k = 3$
+c. $k = 6$
+d. $k = 9$
+
+17. Jika $(x-1)² + (y-2)² = 25$, maka ini berarti titik $(x,y)$ berjarak berapa satuan dari titik $(1,2)$?
+
+a. $\sqrt{5}$ satuan
+b. $\sqrt{25}$ satuan
+c. $5$ satuan
+d. $25$ satuan
+
+18. Rumus jarak antara dua titik $(x_1,y_1)$ dan $(x_2,y_2)$ adalah…
+
+a. $|x_2-x_1| + |y_2-y_1|$
+b. $(x_2-x_1)² + (y_2-y_1)²$
+c. $\sqrt{(x_2-x_1)² + (y_2-y_1)²}$
+d. $\sqrt{(x_2+x_1)² + (y_2+y_1)²}$
+
+19. Jika titik $A(1, -2)$, $B(1, 3)$, dan $C(k, 0)$ membentuk segitiga sama kaki dengan panjang $AB = BC$, maka nilai $k$ yang mungkin adalah…
+
+a. $k = 1$ atau $k = -1$
+b. $k = 2$ atau $k = -2$
+c. $k = 5$ atau $k = -3$
+d. $k = 0$ atau $k = 4$
 
 20. Pilih pasangan titik yang memiliki jarak $5$ satuan:
+
 a. $(1,1)$ dan $(2,3)$
 b. $(0,0)$ dan $(3,4)$
 c. $(2,5)$ dan $(4,7)$
 d. $(-1,0)$ dan $(3,2)$
 
 21. Hitung jarak antara titik $P(-3, 5)$ dan $Q(4, -2)$.
+
 22. Sebuah titik $A(x, 4)$ berjarak $10$ satuan dari titik $B(2, -2)$. Tentukan semua nilai $x$ yang mungkin.
+
 23. Jelaskan mengapa rumus jarak dua titik pada bidang Kartesius merupakan aplikasi dari teorema Pythagoras.
+
 24. Tentukan jarak antara titik $(1, 2, 3)$ dan titik $(4, 6, 3)$ di ruang tiga dimensi.
+
 25. Dua titik $A(p, 2)$ dan $B(6, q)$ memiliki titik tengah $M(3, 5)$. Hitung jarak $AB$.
 
 
