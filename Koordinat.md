@@ -5,6 +5,100 @@ Nama Anggota : ["Salma Fitri Bakhitoh
 25030630032", "Halimah Sa'adatur Rahmah 25030630034", "Zuhrotul Jannatil Karimah 
 25030630057", "Fawwaz Dhiya'ulhaq 25030630077"]
 ---
+# 📌 DAFTAR ISI
+
+* [Bab 1: Sistem Koordinat dalam Ruang 3D](#bab-1-sistem-koordinat-dalam-ruang-3d)
+  * [1.1 Sistem Koordinat Kartesius 3D](#11-sistem-koordinat-kartesius-3d)
+  * [Oktan dalam Ruang 3D](#oktan-dalam-ruang-3d)
+  * [1.2 Penggambaran dan Lokasi Titik dalam Ruang](#12-penggambaran-dan-lokasi-titik-dalam-ruang)
+  * [1.3 Proyeksi Titik pada Sumbu dan Bidang Koordinat](#13-proyeksi-titik-pada-sumbu-dan-bidang-koordinat)
+  * [Sistem Koordinat Silinder](#sistem-koordinat-silinder)
+  * [1.4 Sistem Koordinat Bola](#14-sistem-koordinat-bola)
+  * [1.5 Transformasi Antar Sistem Koordinat](#15-transformasi-antar-sistem-koordinat)
+* [Bab 2: Jarak Antara Dua Titik](#bab-2-jarak-antara-dua-titik)
+  * [2.1 Rumus Jarak Dua Titik (2D)](#21-rumus-jarak-dua-titik-2d)
+  * [2.2 Jarak Dua Titik (3D)](#22-jarak-dua-titik-3d)
+  * [2.3 Jarak Titik ke Garis](#23-jarak-titik-ke-garis)
+    * [A. Jarak Titik ke Garis (2D)](#a-jarak-titik-ke-garis-2d)
+    * [B. Jarak Titik ke Garis (3D)](#b-jarak-titik-ke-garis-3d)
+  * [2.4 Jarak Titik ke Bidang (3D)](#24-jarak-titik-ke-bidang-3d)
+  * [2.5 Jarak Dua Garis](#25-jarak-dua-garis)
+    * [A. Garis Sejajar dalam Ruang](#a-garis-sejajar-dalam-ruang)
+    * [B. Garis Bersilangan (Skew Lines)](#b-garis-bersilangan-skew-lines)
+  * [LATIHAN SOAL PILIHAN GANDA](#latihan-soal-pilihan-ganda)
+  * [LATIHAN SOAL ESSAY](#latihan-soal-essay)
+* [Bab 3: Vektor dalam Ruang Tiga Dimensi](#bab-3-vektor-dalam-ruang-tiga-dimensi)
+  * [3.1 Pengertian dan Notasi Vektor](#31-pengertian-dan-notasi-vektor)
+    * [Contoh 3.1](#contoh-31)
+  * [3.2 Vektor dalam Sistem Koordinat](#32-vektor-dalam-sistem-koordinat)
+    * [Contoh 3.2](#contoh-32)
+    * [Contoh 3.3](#contoh-33)
+  * [3.3 Operasi Aljabar Vektor](#33-operasi-aljabar-vektor)
+    * [3.3.1 Pen penjumlahan Vektor](#331-penjumlah-vektor)
+    * [3.3.2 Pengurangan Vektor](#332-pengurangan-vektor)
+    * [3.3.3 Perkalian Vektor dengan Skalar](#333-perkalian-vektor-dengan-skalar)
+    * [3.3.4 Sifat-Sifat Operasi Vektor](#334-sifat-sifat-operasi-vektor)
+    * [Contoh 3.4](#contoh-34)
+    * [Contoh 3.5](#contoh-35)
+  * [3.4 Vektor Posisi dan Vektor Satuan](#34-vektor-posisi-dan-vektor-satuan)
+    * [Contoh 3.6](#contoh-36)
+    * [Contoh 3.7](#contoh-37)
+  * [3.5 Vektor Basis i, j, k](#35-vektor-basis-i-j-k)
+    * [Contoh 3.8](#contoh-38)
+    * [Contoh 3.9](#contoh-39)
+  * [3.6 Hasil Kali Skalar (Dot Product)](#36-hasil-kali-skalar-dot-product)
+    * [Contoh 3.10](#contoh-310)
+    * [Contoh 3.11](#contoh-311)
+    * [Contoh 3.12](#contoh-312)
+    * [Contoh 3.13](#contoh-313)
+    * [Contoh 3.14](#contoh-314)
+  * [3.7 Hasil Kali Vektor (Cross Product)](#37-hasil-kali-vektor-cross-product)
+    * [3.7.1 Definisi Hasil Kali Vektor](#371-definisi-hasil-kali-vektor)
+    * [3.7.2 Sifat Geometris Hasil Kali Vektor](#372-sifat-geometris-hasil-kali-vektor)
+    * [3.7.3 Sifat-Sifat Aljabar Hasil Kali Vektor](#373-sifat-sifat-aljabar-hasil-kali-vektor)
+    * [3.7.4 Hasil Kali Vektor Basis Standar](#374-hasil-kali-vektor-basis-standar)
+    * [Contoh 3.15](#contoh-315)
+    * [Contoh 3.16](#contoh-316)
+    * [Contoh 3.17](#contoh-317)
+    * [Contoh 3.18](#contoh-318)
+  * [3.8 Hasil Kali Tripel Skalar](#38-hasil-kali-tripel-skalar)
+    * [Contoh 3.19](#contoh-319)
+    * [Contoh 3.20](#contoh-320)
+    * [Contoh 3.21](#contoh-321)
+  * [3.9 Hasil Kali Tripel Vektor](#39-hasil-kali-tripel-vektor)
+    * [Contoh 3.22](#contoh-322)
+  * [3.10 Aplikasi Vektor dalam Geometri](#310-aplikasi-vektor-dalam-geometri)
+    * [Contoh 3.23](#contoh-323)
+    * [Contoh 3.24](#contoh-324)
+    * [Contoh 3.25](#contoh-325)
+    * [Contoh 3.26](#contoh-326)
+  * [3.11 Aplikasi Vektor dalam Fisika](#311-aplikasi-vektor-dalam-fisika)
+    * [Contoh 3.27](#contoh-327)
+    * [Contoh 3.28](#contoh-328)
+* [Bab 4: Garis dalam Ruang Dimensi Tiga (3D)](#bab-4-garis-dalam-ruang-dimensi-tiga-3d)
+  * [4.1 Konsep Dasar Vektor Arah dalam Ruang 3D](#41-konsep-dasar-vektor-arah-dalam-ruang-3d)
+    * [CONTOH SOAL: KONSEP VEKTOR ARAH](#contoh-soal-konsep-vektor-arah)
+  * [4.2 Persamaan Vektor Garis Rectilinear 3D](#42-persamaan-vektor-garis-rectilinear-3d)
+    * [CONTOH SOAL: PERSAMAAN VEKTOR](#contoh-soal-persamaan-vektor)
+  * [4.3 Persamaan Parametrik Garis dalam Ruang](#43-persamaan-parametrik-garis-dalam-ruang)
+    * [CONTOH SOAL: PERSAMAAN PARAMETRIK](#contoh-soal-persamaan-parametrik)
+  * [4.4 Persamaan Simetris Garis dalam Ruang](#44-persamaan-simetris-garis-dalam-ruang)
+    * [CONTOH SOAL: PERSAMAAN SIMETRIS](#contoh-soal-persamaan-simetris)
+  * [4.5 Persamaan Segmen Garis Terbatas](#45-persamaan-segmen-garis-terbatas)
+    * [CONTOH SOAL: SEGMEN GARIS](#contoh-soal-segmen-garis)
+  * [4.6 Klasifikasi Hubungan Geometris Antara Dua Buah Garis](#46-klasifikasi-hubungan-geometris-antara-dua-buah-garis)
+    * [4.6.1 Garis-Garis Sejajar (Parallel Lines)](#461-garis-garis-sejajar-parallel-lines)
+    * [4.6.2 Garis-Garis Berpotongan (Intersecting Lines)](#462-garis-garis-berpotongan-intersecting-lines)
+    * [4.6.3 Garis-Garis Bersilangan (Skew Lines)](#463-garis-garis-bersilangan-skew-lines)
+    * [CONTOH SOAL: HUBUNGAN DUA GARIS](#contoh-soal-hubungan-dua-garis)
+  * [4.7 Perhitungan Jarak Tegak Lurus dari Sebuah Titik ke Garis](#47-perhitungan-jarak-tegak-lurus-dari-sebuah-titik-ke-garis)
+    * [CONTOH SOAL: JARAK TITIK KE GARIS](#contoh-soal-jarak-titik-ke-garis)
+* [Bab 5: Soal-Soal Latihan](#bab-5-soal-soal-latihan)
+  * [5.1 Latihan Sistem Koordinat dalam Ruang](#51-latihan-sistem-koordinat-dalam-ruang)
+  * [5.2 Latihan Jarak dalam Ruang](#52-latihan-jarak-dalam-ruang)
+  * [5.3 Latihan Vektor dalam Ruang](#53-latihan-vektor-dalam-ruang)
+  * [5.4 Soal-Soal Campuran dan Pemecahan Masalah](#54-soal-soal-campuran-dan-pemecahan-masalah)
+* [DAFTAR PUSTAKA](#daftar-pustaka)
 
 # Koordinat Titik, Jarak, Vektor, dan Garis. 
 # Bab 1 Sistem Koordinat dalam Ruang 3D
@@ -917,7 +1011,7 @@ Untuk sebarang vektor $\mathbf{a}, \mathbf{b}, \mathbf{c}$ dan skalar $k$:
 
 Hasil kali vektor atau *cross product* (juga disebut hasil kali silang) merupakan operasi yang khas pada ruang tiga dimensi. Berbeda dengan *dot product*, *cross product* dari dua vektor menghasilkan vektor baru yang tegak lurus terhadap kedua vektor asalnya.
 
-### Definisi Hasil Kali Vektor
+### 3.7.1 Definisi Hasil Kali Vektor
 Hasil kali vektor dari $\mathbf{a} = (a_1, a_2, a_3)$ dan $\mathbf{b} = (b_1, b_2, b_3)$ didefinisikan melalui bentuk determinan formal berikut:
 $$\mathbf{a} \times \mathbf{b} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$$
 
@@ -926,14 +1020,14 @@ $$\mathbf{a} \times \mathbf{b} = (a_2b_3 - a_3b_2)\mathbf{i} - (a_1b_3 - a_3b_1)
 Atau secara komponen:
 $$\mathbf{a} \times \mathbf{b} = (a_2b_3 - a_3b_2, \, a_3b_1 - a_1b_3, \, a_1b_2 - a_2b_1)$$
 
-### Sifat Geometris Hasil Kali Vektor
+### 3.7.2 Sifat Geometris Hasil Kali Vektor
 Vektor $\mathbf{a} \times \mathbf{b}$ memiliki sifat geometris penting berikut:
 1.  **Tegak lurus:** $\mathbf{a} \times \mathbf{b}$ tegak lurus terhadap $\mathbf{a}$ dan terhadap $\mathbf{b}$.
 2.  **Magnitudo:** $|\mathbf{a} \times \mathbf{b}| = |\mathbf{a}| \cdot |\mathbf{b}| \cdot \sin \theta$, dengan $\theta$ adalah sudut antara $\mathbf{a}$ dan $\mathbf{b}$ ($0 \le \theta \le \pi$).
 3.  **Arah:** Mengikuti aturan tangan kanan (putar jari dari $\mathbf{a}$ ke $\mathbf{b}$, maka ibu jari menunjuk arah $\mathbf{a} \times \mathbf{b}$).
 4.  Magnitudo $|\mathbf{a} \times \mathbf{b}|$ sama dengan **luas jajaran genjang** yang dibentuk oleh $\mathbf{a}$ dan $\mathbf{b}$.
 
-### Sifat-Sifat Aljabar Hasil Kali Vektor
+### 3.7.3 Sifat-Sifat Aljabar Hasil Kali Vektor
 Untuk sebarang vektor $\mathbf{a}, \mathbf{b}, \mathbf{c}$ dan skalar $k$:
 1.  **Antikomutatif:** $\mathbf{a} \times \mathbf{b} = -(\mathbf{b} \times \mathbf{a})$
 2.  **Distributif:** $\mathbf{a} \times (\mathbf{b} + \mathbf{c}) = \mathbf{a} \times \mathbf{b} + \mathbf{a} \times \mathbf{c}$
@@ -943,7 +1037,7 @@ Untuk sebarang vektor $\mathbf{a}, \mathbf{b}, \mathbf{c}$ dan skalar $k$:
 
 > *Catatan:* Hasil kali vektor **tidak** asosiatif secara umum: $(\mathbf{a} \times \mathbf{b}) \times \mathbf{c} \neq \mathbf{a} \times (\mathbf{b} \times \mathbf{c})$.
 
-### Hasil Kali Vektor Basis Standar
+### 3.7.4 Hasil Kali Vektor Basis Standar
 Vektor-vektor basis $\mathbf{i}, \mathbf{j}, \mathbf{k}$ memenuhi hubungan siklik:
 $$\mathbf{i} \times \mathbf{j} = \mathbf{k}, \quad \mathbf{j} \times \mathbf{k} = \mathbf{i}, \quad \mathbf{k} \times \mathbf{i} = \mathbf{j}$$
 $$\mathbf{j} \times \mathbf{i} = -\mathbf{k}, \quad \mathbf{k} \times \mathbf{j} = -\mathbf{i}, \quad \mathbf{i} \times \mathbf{k} = -\mathbf{j}$$
@@ -1764,7 +1858,7 @@ Soal-soal pada bagian ini menggabungkan beberapa konsep sekaligus, sehingga meme
 
 ---
 
-## DAFTAR PUSTAKA ACUAN DAN HALAMAN SUMBER
+## DAFTAR PUSTAKA
 
 * **Riddle, Douglas F.** (1996). *Analytic Geometry, Sixth Edition*. Boston: PWS Publishing Company.
    
