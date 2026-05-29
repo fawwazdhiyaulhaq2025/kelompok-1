@@ -5,7 +5,7 @@ Nama Anggota : ["Salma Fitri Bakhitoh
 25030630032", "Halimah Sa'adatur Rahmah 25030630034", "Zuhrotul Jannatil Karimah 
 25030630057", "Fawwaz Dhiya'ulhaq 25030630077"]
 ---
-# 📌 DAFTAR ISI
+#  DAFTAR ISI
 
 * [Bab 1: Sistem Koordinat dalam Ruang 3D](#bab-1-sistem-koordinat-dalam-ruang-3d)
   * [1.1 Sistem Koordinat Kartesius 3D](#11-sistem-koordinat-kartesius-3d)
@@ -120,9 +120,9 @@ Komponen dasar sistem koordinat:
 - Aturan tangan kanan: Cara menentukan sumbu $z$ positif (seperti gambar di atas). 
 
 Ketiga sumbu koordinat ini menentukan tiga bidang koordinat yang saling tegak lurus, yaitu:
-- Bidang $XY$: bidang yang memuat sumbu-$X$ dan sumbu-$Y$; persamaannya adalah $z = 0$.
-- Bidang $YZ$: bidang yang memuat sumbu-$Y$ dan sumbu-$Z$; persamaannya adalah $x = 0$.
-- Bidang $XZ$: bidang yang memuat sumbu-$X$ dan sumbu-$Z$; persamaannya adalah $y = 0$.
+- Bidang XY: bidang yang memuat sumbu-X dan sumbu-Y; persamaannya adalah $z = 0$.
+- Bidang YZ: bidang yang memuat sumbu-Y dan sumbu-Z; persamaannya adalah $x = 0$.
+- Bidang XZ: bidang yang memuat sumbu-X dan sumbu-Z; persamaannya adalah $y = 0$.
 
 <div align="center">
 <img src="https://i.ibb.co.com/qM92KJSD/Bidang.jpg" width="500">
@@ -1859,6 +1859,19 @@ Soal-soal pada bagian ini menggabungkan beberapa konsep sekaligus, sehingga meme
 ---
 
 ## DAFTAR PUSTAKA
+* **Douglas Riddle.** Ref1_Analytic Geometry6e.
+
+* **Gordon Fuller.** Ref2_AnalyticGeometry.
+ 
+* **Riddle, Douglas f.** Ref3_AnalyticGeometry.
+
+* **A.N.DAS.** Ref4_AnalyticalGeometryof2D3D.
+
+* **KHAN.** Ref5_AnalyticalGeometryof2D3DandVectorAnalysis.
+
+* **Sibdas Karmakar, Samiran Karmakar.** Ref6_AnalyticalGeometry2D.
+
+* *Pogorelov,A.V.** Ref7_AnalyticalGeometry.
 
 * **Riddle, Douglas F.** (1996). *Analytic Geometry, Sixth Edition*. Boston: PWS Publishing Company.
    
