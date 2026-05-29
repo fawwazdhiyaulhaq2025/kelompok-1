@@ -225,10 +225,10 @@ b) $ρ =$ $\sqrt{(r² + z²)}$ $= \sqrt{(9 + 16)}$ $=$ $\sqrt{25}$ $=$ $5$.
 </div>
 
 
-## 2. Jarak Antara Dua Titik
+# Bab 2 Jarak Antara Dua Titik
 Jarak antara dua titik dalam ruang adalah perluasan dari jarak pada bidang. Fondasi utamanya tetap menggunakan Teorema Phytagoras, namun diterapkan pada tiga sumbu koordinat yang saling tegak lurus. Dalam geometri ruang sebuah titik tidak lagi diwakili oleh $(x, y)$, tetapi diwakili oleh triple koordinat $(x, y,z)$. Dengan adanya penambahan dimensi ketiga (sumbu $z$) memungkinkan kita merepresentasikan posisi titik dalam ruang hampa, mencakup panjang, lebar, dan tinggi.
 
-A. a. Rumus Jarak dua titik (2D)
+## 2.1 Rumus Jarak dua titik (2D)
 
 jarak antara dua titik dalam dua dimensi adalah metode untuk menghitung jarak lurus antara dua titik yang terletak dalam bidang datar. Rumus ini sangat penting dalam matematika dan digunakan dalam berbagai aplikasi seperti navigasi, pemodelan grafik, dan analisis pola geometri.Rumus jarak antara dua titik dalam dua dimensi digunakan untuk menghitung jarak antara dua titik dalam ruang dua dimensi.Jika diketahui titik $A(x_1, y_2)$ dan $B(x_2, y_2)$, maka jarak $AB$ dirumuskan sebagai:
 
@@ -254,7 +254,7 @@ $d=\sqrt{169}$
 $d=13$
 jadi, jarak antara titik adalah $13$.
 
-   b. Jarak dua titik (3D)
+### 2.2 Jarak dua titik (3D)
 
 Pada ruang tiga dimensi, titk dinyatakan sebagai $(x, y, z)$. Konsep jarak diperluas dengan menambahkan sumbu $z$.
 * Rumus jarak dua titik (3D)
@@ -281,7 +281,7 @@ $d = \sqrt{169}$
 $d = 13$
 jadi, jarak titk  antara $A$ dan $B$ adalah $13$.
 
-B. a. Jarak titk ke garis (2D)
+### 2.3 Jarak titk ke garis (2D)
 
 Jarak titik ke garis adalah panjang ruas garis terpendek dari titk menuju garis, yaitu garis tegak lurus terhadap garis tersebut. 
 * Persamaan titik ke garis
@@ -342,7 +342,7 @@ $$d=\frac{|\overrightarrow{AP}\times \vec{v}|}{|\vec{v}|}$$
 > $$d=\frac{\sqrt{(-2)^2+1^2+0^2}\times \sqrt{1^2+2^2+2^2}}{\sqrt{1^2+2^2+2^2}}$$
 > $$d=\frac{\sqrt5}{3}$$
 
-C. Jarak titik ke bidang (3D)
+### 2.4 Jarak titik ke bidang (3D)
 
 Jarak titik ke bidang sama dengan panjang ruas garis terpendek yang menghubungkan titik dengan sebuah titik pada bidang. Di mana titik pada bidang merupakan titik hasil proyeksi dari titik di luar bidang tadi. Sebagai contoh, jarak titik ke A pada bidang α adalah panjang ruas garis AP. Di mana P adalah proyeksi titik A pada bidang α.
 Misal, diketahui sebuah titik A dan bidang α. Titik A tidak terletak pada bidang α (titik A terletak di luar bidang). Proyeksi titik A pada bidang α adalah titik P. Jarak titik ke bidang sama dengan panjang ruas garis AP.
@@ -363,7 +363,7 @@ $$d =\frac{|ax_1 + by_1 + cz_1 + d|}{\sqrt{a^2+b^2+c^2}}$$
 > $$d=\frac{|2-2+6-5|}{\sqrt{4+1+4}}$$
 > $$d=\frac{1}{3}$$
 
-D. Jarak dua garis 
+### 2.5 Jarak dua garis 
 * Sejajar dalam ruang
 Garis sejajar adalah suatu kedudukan dua garis pada bidang datar yang tidak mempunyai titik potong walaupun kedua garis diperpanjang. Secara geometri kesejajaran garis tidak akan pernah bertemu satu dengan lainnya karena mempunyai kemiringan (gradien) yang sama. Garis-garis sejajar tidak harus sama panjang. Jarak antara garis $g$ dan garis $l$ yang sejajar adalah panjang ruas garis $AA′$, dimana $A$ adalah sembarang titik pada garis $g$ dan $A′$ merupakan proyeksi titik $A$ pada garis $l$.
 Dua garis sejajar memiliki vektor arah yang sama atau kelipatan satu sama lain.
@@ -556,21 +556,21 @@ Secara geometris, vektor digambarkan sebagai **ruas garis berarah (anak panah)**
 * **Titik pangkal** disebut titik awal (*initial point*).
 * **Titik ujung** disebut titik akhir (*terminal point*).
 
-### Notasi Vektor
+### 3.1.1 Notasi Vektor
 Beberapa notasi vektor yang umum digunakan antara lain:
 * Huruf kecil dicetak tebal: $\mathbf{a}$, $\mathbf{b}$, $\mathbf{v}$, dll.
 * Huruf dengan tanda panah di atasnya: $\vec{a}$, $\vec{b}$, $\vec{v}$, dll.
 * Untuk vektor dengan titik awal $A$ his dan titik akhir $B$, digunakan notasi $\vec{AB}$ atau $\mathbf{AB}$.
 
-### Jenis-Jenis Vektor Khusus
+### 3.1.2 Jenis-Jenis Vektor Khusus
 
-#### 1. Vektor Sama
+#### 3.1.2.1 Vektor Sama
 Dua vektor dikatakan sama apabila keduanya memiliki **magnitudo yang sama dan arah yang sama**, terlepas dari letak titik awalnya. Dengan demikian, sebuah vektor dapat dipindahkan secara paralel tanpa mengubah identitasnya. Vektor seperti ini disebut **vektor bebas** (*free vector*).
 
-#### 2. Vektor Negatif
+#### 3.1.2.2. Vektor Negatif
 Vektor negatif dari suatu vektor $\mathbf{v}$, dilambangkan dengan $-\mathbf{v}$, adalah vektor yang memiliki magnitudo sama dengan $\mathbf{v}$ tetapi **arahnya berlawanan**.
 
-#### 3. Vektor Nol
+#### 3.1.2.3. Vektor Nol
 Vektor nol, dilambangkan dengan $\mathbf{0}$, adalah vektor yang **magnitudonya nol**. Arah vektor nol tidak terdefinisi (atau dapat dianggap sebarang). Vektor nol berperan sebagai elemen identitas dalam operasi penjumlahan vektor.
 
 ---
@@ -628,7 +628,7 @@ $$\mathbf{v} = |\mathbf{v}| \times (l, m, n) = 7 \times \left(\frac{3}{7}, -\fra
 ## 3.3 Operasi Aljabar Vektor
 Vektor dapat dioperasikan secara aljabar mirip dengan bilangan, namun dengan aturan tersendiri yang menggambarkan sifat geometrisnya. Operasi dasar pada vektor meliputi penjumlahan, pengurangan, dan perkalian vektor dengan skalar.
 
-### Penjumlahan Vektor
+### 3.3.1 Penjumlahan Vektor
 Misalkan $\mathbf{a} = (a_1, a_2, a_3)$ dan $\mathbf{b} = (b_1, b_2, b_3)$. Jumlah dari kedua vektor tersebut didefinisikan sebagai vektor yang komponen-komponennya merupakan jumlah komponen yang bersesuaian:
 
 $$\mathbf{a} + \mathbf{b} = (a_1 + b_1, a_2 + b_2, a_3 + b_3)$$
@@ -637,14 +637,14 @@ Secara geometris, penjumlahan vektor dapat dilakukan dengan dua cara:
 1. **Aturan Segitiga (atau aturan poligon):** Vektor kedua diletakkan dengan titik awalnya berimpit dengan titik akhir vektor pertama; resultan adalah vektor dari titik awal vektor pertama ke titik akhir vektor kedua.
 2. **Aturan Jajaran Genjang:** Kedua vektor diletakkan dengan titik awal yang sama, dan resultan adalah diagonal jajaran genjang dari titik awal yang sama tersebut.
 
-### Pengurangan Vektor
+### 3.3.2 Pengurangan Vektor
 Pengurangan dua vektor didefinisikan sebagai:
 
 $$\mathbf{a} - \mathbf{b} = \mathbf{a} + (-\mathbf{b}) = (a_1 - b_1, a_2 - b_2, a_3 - b_3)$$
 
 Secara geometris, vektor $\mathbf{a} - \mathbf{b}$ dapat diperoleh dengan meletakkan kedua vektor $\mathbf{a}$ dan $\mathbf{b}$ berpangkal di titik yang sama; maka $\mathbf{a} - \mathbf{b}$ adalah vektor yang menghubungkan titik akhir $\mathbf{b}$ ke titik akhir $\mathbf{a}$.
 
-### Perkalian Vektor dengan Skalar
+### 3.3.3 Perkalian Vektor dengan Skalar
 Misalkan $k$ adalah bilangan real (skalar) dan $\mathbf{a} = (a_1, a_2, a_3)$. Perkalian skalar $k$ dengan vektor $\mathbf{a}$ didefinisikan sebagai:
 
 $$k \cdot \mathbf{a} = (ka_1, ka_2, ka_3)$$
@@ -656,7 +656,7 @@ Magnitudo dari $k \cdot \mathbf{a}$ adalah $|k| \cdot |\mathbf{a}|$, dan arahnya
 
 ---
 
-### Sifat-Sifat Operasi Vektor
+### 3.3.4 Sifat-Sifat Operasi Vektor
 Operasi penjumlahan vektor dan perkalian skalar memenuhi sifat-sifat berikut, untuk sebarang vektor $\mathbf{a}, \mathbf{b}, \mathbf{c}$ dan skalar $k, m$:
 
 1. **Komutatif:** $\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$
